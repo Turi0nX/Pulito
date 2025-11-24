@@ -1,10 +1,9 @@
-name: Update blocker lists
+name: Update public blocker lists (public-lists branch)
 
 on:
   schedule:
     # Ogni 2 giorni alle 03:00 UTC
     - cron: "0 3 */2 * *"
-  
   workflow_dispatch: {}
 
 jobs:
@@ -12,8 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,17 +33,32 @@ jobs:
         run: |
           python -m generator.cli
 
-      - name: Commit and push if changed
+      - name: Checkout public-lists branch
+        uses: actions/checkout@v4
+        with:
+          ref: public-lists
+          path: public-lists
+          fetch-depth: 0
+
+      - name: Replace contents of public-lists with generated output
+        run: |
+          # Svuota tutto dal branch public-lists
+          rm -rf public-lists/*
+          mkdir -p public-lists/Backend/output
+          cp Backend/output/blockerList_base.json  public-lists/Backend/output/
+          cp Backend/output/blockerList_pro.json   public-lists/Backend/output/
+          cp Backend/output/manifest_base.json     public-lists/Backend/output/
+          cp Backend/output/manifest_pro.json      public-lists/Backend/output/
+
+      - name: Commit and push to public-lists
+        working-directory: public-lists
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Backend/output/blockerList_base.json \
-                  Backend/output/blockerList_pro.json \
-                  Backend/output/manifest_base.json \
-                  Backend/output/manifest_pro.json
+          git add .
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: auto-update blocker lists"
-            git push
+            git commit -m "chore: auto-update public blocker lists"
+            git push origin HEAD:public-lists
           fi
