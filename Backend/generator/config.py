@@ -10,7 +10,7 @@ KEYS_DIR = BACKEND_ROOT / "keys"
 # GitHub Pages / distribuzione
 GITHUB_PAGES_URL = os.getenv(
     "GITHUB_PAGES_URL",
-    "https://username.github.io/repo-name/"
+    "https://turionx.github.io/Pulito/Backend/output"
 )
 
 # Versioning
