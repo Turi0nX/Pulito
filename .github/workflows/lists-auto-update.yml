@@ -4,6 +4,7 @@ on:
   schedule:
     # Ogni 2 giorni alle 03:00 UTC
     - cron: "0 3 */2 * *"
+    
   workflow_dispatch: {}
 
 jobs:
