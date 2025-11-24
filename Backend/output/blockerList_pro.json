@@ -630039,6 +630039,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "nwvboqorfftjs.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nwvulrmtxesqh.space"
       ]
     },
