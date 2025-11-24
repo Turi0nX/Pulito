@@ -2,7 +2,7 @@ import json
 import logging
 import sys
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Set
 
 # Aggiungiamo la root del backend al path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -34,6 +34,20 @@ def configure_logging(level: int = logging.INFO) -> None:
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
 
+def load_custom_whitelist() -> Set[str]:
+    """
+    Carica la whitelist locale (siti che NON vogliamo bloccare).
+    """
+    whitelist_path = LISTS_DIR / "custom_allow.txt"
+    if not whitelist_path.exists():
+        return set()
+    
+    with whitelist_path.open("r", encoding="utf-8") as f:
+        lines = f.readlines()
+    
+    # Riutilizziamo il parser per pulire le righe (rimuovere commenti, spazi)
+    return set(parse_list(lines))
+
 def validate_output(file_path: Path, min_rules: int) -> int:
     """
     Controlla che il file JSON esista, sia una LISTA valida e abbia regole sufficienti.
@@ -47,7 +61,6 @@ def validate_output(file_path: Path, min_rules: int) -> int:
         except json.JSONDecodeError:
             raise ValueError(f"❌ Invalid JSON in {file_path}")
             
-    # CONTROLLO FONDAMENTALE PER SAFARI: Deve essere una lista!
     if not isinstance(data, list):
         raise ValueError(f"❌ Output format error: Safari requires a LIST [...], got {type(data)}")
         
@@ -66,12 +79,19 @@ def main() -> None:
     configure_logging()
     logger.info("🚀 Starting Pulito Generator (Corrected Format)...")
 
-    logger.info("Refreshing remote public lists...")
+    # 1. Carica la Whitelist Locale (Priorità Massima)
+    whitelist = load_custom_whitelist()
+    if whitelist:
+        logger.info(f"🛡️  Loaded {len(whitelist)} whitelisted domains.")
+
+    # 2. Download Liste Remote
+    logger.info("📥 Refreshing remote public lists...")
     remote_files = refresh_remote_lists()
 
-    all_domains: list[str] = []
+    # Usiamo un SET per evitare duplicati automaticamente
+    all_domains_set: Set[str] = set()
 
-    # Parsing Remote
+    # 3. Parsing Remote
     for name, path in remote_files.items():
         if not path: 
             logger.warning(f"⚠️  Download failed for {name}, skipping.")
@@ -80,11 +100,11 @@ def main() -> None:
             with path.open("r", encoding="utf-8") as f:
                 lines = f.readlines()
             parsed = parse_list(lines)
-            all_domains.extend(parsed)
+            all_domains_set.update(parsed) # .update aggiunge solo i nuovi
         except Exception as e:
             logger.error(f"❌ Error parsing {name}: {e}")
 
-    # Parsing Local
+    # 4. Parsing Local Blocklist
     for relative_path in INPUT_LIST_FILES:
         path = LISTS_DIR / relative_path
         if not path.is_file():
@@ -92,14 +112,22 @@ def main() -> None:
         with path.open("r", encoding="utf-8") as f:
             lines = f.readlines()
         parsed = parse_list(lines)
-        all_domains.extend(parsed)
+        all_domains_set.update(parsed)
+
+    # 5. OTTIMIZZAZIONE FINALE (The God-Tier Touch)
+    # - Rimuovi i domini in whitelist
+    # - Ordina alfabeticamente (Determinismo)
+    initial_count = len(all_domains_set)
+    all_domains_set = all_domains_set - whitelist
+    final_domains = sorted(list(all_domains_set))
+    
+    logger.info(f"🧹 Optimization: {initial_count} raw -> {len(final_domains)} unique domains (sorted & whitelisted).")
 
     output_dir = Path(OUTPUT_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # --- BASE GENERATION ---
-    # Ora build_base_list restituisce direttamente una LISTA di oggetti
-    base_rules = build_base_list(all_domains, version=VERSION)
+    base_rules = build_base_list(final_domains, version=VERSION)
     
     base_filename = "blockerList_base.json"
     base_path = output_dir / base_filename
@@ -113,7 +141,7 @@ def main() -> None:
     write_json(base_manifest, base_manifest_path)
 
     # --- PRO GENERATION ---
-    pro_rules = build_pro_list(all_domains, version=VERSION)
+    pro_rules = build_pro_list(final_domains, version=VERSION)
     
     pro_filename = "blockerList_pro.json"
     pro_path = output_dir / pro_filename
