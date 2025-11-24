@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-11-24T17:37:07.263939+00:00",
-  "rule_count": 95983,
+  "generated_at": "2025-11-24T17:56:09.461729+00:00",
+  "rule_count": 95985,
   "rules": [
     {
       "trigger": {
@@ -185027,6 +185027,17 @@
       "trigger": {
         "url-filter": ".*",
         "if-domain": [
+          "invalidexactor.cyou"
+        ]
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*",
+        "if-domain": [
           "invariableapathy.com"
         ]
       },
@@ -251765,6 +251776,17 @@
         "url-filter": ".*",
         "if-domain": [
           "nkbfkirbnxdbo.site"
+        ]
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*",
+        "if-domain": [
+          "nkccdnkcf.com"
         ]
       },
       "action": {
