@@ -1,7 +1,6 @@
 from typing import List, Dict, Any
 
-# --- LISTA DEI SELETTORI CSS PER I COOKIE BANNER PIÙ COMUNI ---
-# Questi sono i "nomi" tecnici dei banner usati dal 90% dei siti web.
+# --- 1. COOKIE BANNERS  ---
 COOKIE_BANNER_SELECTORS = [
     "#onetrust-banner-sdk",       # OneTrust
     ".onetrust-pc-dark-filter",
@@ -11,21 +10,40 @@ COOKIE_BANNER_SELECTORS = [
     "#CybotCookiebotDialogBodyUnderlay",
     ".qc-cmp2-container",         # Quantcast
     "#didomi-host",               # Didomi
-    ".fc-consent-root",           # Funding Choices (Google)
     "#cookie-banner",             # Generici
     ".cookie-banner",
     "#cookie-law-info-bar",
     ".cli-modal-backdrop",
     "#gdpr-cookie-message",
     ".cc-banner",                 # CookieConsent
-    ".cc-window"
+    ".cc-window",
+    ".fc-consent-root"            # Google Funding Choices 
+]
+
+# --- 2. ANTI-ADBLOCK WALLS  ---
+
+ANTI_ADBLOCK_SELECTORS = [
+    ".fc-ab-root",                # Google Funding Choices (Anti-Adblock)
+    ".fc-ab-overlay",
+    "#adblock-message",           # Generici
+    ".adblock-message",
+    "#adblock-overlay",
+    ".adblock-overlay",
+    "#block-adblock",
+    ".block-adblock",
+    ".detect-adblock",
+    "#detect-adblock",
+    ".adb-overlay",               # Admiral 
+    "#adb-overlay",
+    ".sp_message_container",      # Sourcepoint
+    "div[class*='adblock']",      # Qualsiasi div che contenga "adblock" nel nome classe
+    "div[id*='adblock']"          # Qualsiasi div che contenga "adblock" nell'ID
 ]
 
 
 def _create_block_rule(domain: str) -> Dict[str, Any]:
     """
-    Crea una regola di blocco di rete (Network Blocking).
-    Impedisce al dominio di caricarsi.
+    Regola di blocco di rete (Network Blocking).
     """
     return {
         "trigger": {
@@ -40,15 +58,13 @@ def _create_block_rule(domain: str) -> Dict[str, Any]:
 
 def _create_css_hide_rule(selectors: List[str]) -> Dict[str, Any]:
     """
-    Crea una regola per NASCONDERE elementi visivi (CSS Hiding).
-    Ottimo per banner cookie, popup e anti-adblock.
+    Regola per NASCONDERE elementi visivi (CSS Hiding).
     """
-    # Uniamo tutti i selettori con una virgola (sintassi CSS standard)
     selector_string = ", ".join(selectors)
-
+    
     return {
         "trigger": {
-            "url-filter": ".*" # Applica su tutti i siti
+            "url-filter": ".*"
         },
         "action": {
             "type": "css-display-none",
@@ -59,8 +75,7 @@ def _create_css_hide_rule(selectors: List[str]) -> Dict[str, Any]:
 
 def build_base_list(domains: List[str], version: str = None) -> List[Dict[str, Any]]:
     """
-    Genera la lista BASE.
-    Solo blocco domini pubblicitari e traccianti.
+    LISTA BASE: Solo blocco pubblicità (leggera).
     """
     rules = []
     for domain in domains:
@@ -72,20 +87,22 @@ def build_base_list(domains: List[str], version: str = None) -> List[Dict[str, A
 
 def build_pro_list(domains: List[str], version: str = None) -> List[Dict[str, Any]]:
     """
-    Genera la lista PRO.
-    Blocco domini + Rimozione visiva dei Banner Cookie.
+    LISTA PRO: Blocco Ads + Cookie Banners + Anti-Adblock Walls.
     """
     rules = []
-
-    # 1. Aggiungi le regole di blocco domini (come la Base)
+    
+    # 1. Blocco Domini
     for domain in domains:
         if domain in ["0.0.0.0", "127.0.0.1", "localhost"]:
             continue
         rules.append(_create_block_rule(domain))
-
-    # 2. AGGIUNTA PRO: Nascondi i banner dei cookie
-    # Creiamo una regola unica che nasconde tutti i selettori definiti sopra
+        
+    # 2. Nascondi Cookie Banners
     if COOKIE_BANNER_SELECTORS:
         rules.append(_create_css_hide_rule(COOKIE_BANNER_SELECTORS))
 
+    # 3. Nascondi Anti-Adblock Walls (NUOVO)
+    if ANTI_ADBLOCK_SELECTORS:
+        rules.append(_create_css_hide_rule(ANTI_ADBLOCK_SELECTORS))
+        
     return rules
