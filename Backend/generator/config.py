@@ -16,7 +16,7 @@ GITHUB_PAGES_URL = os.getenv(
 # Versioning
 VERSION = os.getenv("PULITO_VERSION", "1.0.0")
 
-# Local input lists (relative to LISTS_DIR) – per eventuali regole extra tue
+# Local input lists (relative to LISTS_DIR) 
 INPUT_LIST_FILES = [
     "custom_block.txt",
     "custom_allow.txt",

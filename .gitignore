@@ -33,5 +33,5 @@ Backend/__pycache__/
 Backend/keys/*.pem
 !Backend/keys/pulito_pubkey.pem
 
-# Optional: logs
+
 *.log
