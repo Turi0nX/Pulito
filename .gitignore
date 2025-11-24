@@ -29,7 +29,7 @@ DerivedData/
 Backend/output/
 Backend/__pycache__/
 
-# Keys: ignore all private material, allow only explicit public key
+# Keys: only explicit public key
 Backend/keys/*.pem
 !Backend/keys/pulito_pubkey.pem
 

@@ -39,7 +39,7 @@ def build_pro_rules(domains: Iterable[str]) -> List[Dict[str, Any]]:
             {
                 "trigger": {
                     "url-filter": ".*",
-                    "if-domain": [d],  # <--- niente "*" qui
+                    "if-domain": [d],  
                 },
                 "action": {
                     "type": "block",

@@ -43,7 +43,7 @@ def parse_rule_line(line: str) -> Optional[str]:
         domain = m.group(1).lower()
         return domain
 
-    # Tutto il resto lo ignoriamo per non rompere i siti
+    
     return None
 
 
