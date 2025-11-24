@@ -2,7 +2,7 @@ import json
 import logging
 import sys
 from pathlib import Path
-from typing import Union, List, Dict, Any
+from typing import List, Dict, Any
 
 # Aggiungiamo la root del backend al path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -34,27 +34,9 @@ def configure_logging(level: int = logging.INFO) -> None:
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
 
-def extract_rules(data: Union[List, Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Assicura che i dati siano una lista (formato richiesto da iOS).
-    Se è un dizionario (es. wrapper con versione), estrae la lista dalla chiave 'rules'.
-    """
-    if isinstance(data, list):
-        return data
-    
-    if isinstance(data, dict):
-        if "rules" in data and isinstance(data["rules"], list):
-            logger.info("📦 Extracted rules list from dictionary wrapper.")
-            return data["rules"]
-        else:
-            # Se è un dizionario ma non ha 'rules', c'è un problema strutturale
-            raise ValueError(f"❌ Data is a dict but missing 'rules' key. Keys found: {list(data.keys())}")
-            
-    raise ValueError(f"❌ Unknown data format: {type(data)}")
-
 def validate_output(file_path: Path, min_rules: int) -> int:
     """
-    Controlla che il file JSON esista, sia valido e abbia un numero sufficiente di regole.
+    Controlla che il file JSON esista, sia una LISTA valida e abbia regole sufficienti.
     """
     if not file_path.exists():
         raise FileNotFoundError(f"❌ Output file missing: {file_path}")
@@ -65,8 +47,9 @@ def validate_output(file_path: Path, min_rules: int) -> int:
         except json.JSONDecodeError:
             raise ValueError(f"❌ Invalid JSON in {file_path}")
             
+    # CONTROLLO FONDAMENTALE PER SAFARI: Deve essere una lista!
     if not isinstance(data, list):
-        raise ValueError(f"❌ Output format error: expected list, got {type(data)}")
+        raise ValueError(f"❌ Output format error: Safari requires a LIST [...], got {type(data)}")
         
     count = len(data)
     logger.info(f"📊 Validation: {file_path.name} contains {count} rules.")
@@ -81,19 +64,18 @@ def validate_output(file_path: Path, min_rules: int) -> int:
 
 def main() -> None:
     configure_logging()
+    logger.info("🚀 Starting Pulito Generator (Corrected Format)...")
 
     logger.info("Refreshing remote public lists...")
     remote_files = refresh_remote_lists()
 
     all_domains: list[str] = []
 
-    # 2. Parsing Remote
+    # Parsing Remote
     for name, path in remote_files.items():
         if not path: 
             logger.warning(f"⚠️  Download failed for {name}, skipping.")
             continue 
-            
-        logger.info("Parsing remote list %s", name)
         try:
             with path.open("r", encoding="utf-8") as f:
                 lines = f.readlines()
@@ -102,56 +84,46 @@ def main() -> None:
         except Exception as e:
             logger.error(f"❌ Error parsing {name}: {e}")
 
-    # 3. Parsing Local
+    # Parsing Local
     for relative_path in INPUT_LIST_FILES:
         path = LISTS_DIR / relative_path
         if not path.is_file():
-            logger.info("Local list file not found, skipping: %s", path)
             continue
-
         with path.open("r", encoding="utf-8") as f:
             lines = f.readlines()
         parsed = parse_list(lines)
-        logger.info("Parsed %d domains from local %s", len(parsed), path)
         all_domains.extend(parsed)
 
     output_dir = Path(OUTPUT_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # --- BASE GENERATION ---
-    raw_base = build_base_list(all_domains, version=VERSION)
-    # FIX: Estraiamo la lista pura per iOS
-    base_rules = extract_rules(raw_base)
+    # Ora build_base_list restituisce direttamente una LISTA di oggetti
+    base_rules = build_base_list(all_domains, version=VERSION)
     
     base_filename = "blockerList_base.json"
     base_path = output_dir / base_filename
     logger.info("Writing BASE blocker list to %s", base_path)
     write_json(base_rules, base_path)
     
-    # SAFETY CHECK BASE
     validate_output(base_path, MIN_RULES_THRESHOLD_BASE)
 
     base_manifest = build_manifest("base", base_filename)
     base_manifest_path = output_dir / "manifest_base.json"
-    logger.info("Writing BASE manifest to %s", base_manifest_path)
     write_json(base_manifest, base_manifest_path)
 
     # --- PRO GENERATION ---
-    raw_pro = build_pro_list(all_domains, version=VERSION)
-    # FIX: Estraiamo la lista pura per iOS
-    pro_rules = extract_rules(raw_pro)
+    pro_rules = build_pro_list(all_domains, version=VERSION)
     
     pro_filename = "blockerList_pro.json"
     pro_path = output_dir / pro_filename
     logger.info("Writing PRO blocker list to %s", pro_path)
     write_json(pro_rules, pro_path)
 
-    # SAFETY CHECK PRO
     validate_output(pro_path, MIN_RULES_THRESHOLD_PRO)
 
     pro_manifest = build_manifest("pro", pro_filename)
     pro_manifest_path = output_dir / "manifest_pro.json"
-    logger.info("Writing PRO manifest to %s", pro_manifest_path)
     write_json(pro_manifest, pro_manifest_path)
 
     # --- SIGNING ---
@@ -161,14 +133,7 @@ def main() -> None:
     embed_signature(privkey_path, base_manifest_path)
     embed_signature(privkey_path, pro_manifest_path)
 
-    logger.info(
-        "Generation completed successfully:\n  %s\n  %s\n  %s\n  %s",
-        base_path,
-        base_manifest_path,
-        pro_path,
-        pro_manifest_path,
-    )
-
+    logger.info("✅ BUILD COMPLETED SUCCESSFULLY.")
 
 if __name__ == "__main__":
     try:
