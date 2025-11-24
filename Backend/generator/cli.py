@@ -2,6 +2,7 @@ import json
 import logging
 import sys
 from pathlib import Path
+from typing import Union, List, Dict, Any
 
 # Aggiungiamo la root del backend al path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -23,13 +24,9 @@ from sign_manifest import embed_signature
 logger = logging.getLogger(__name__)
 
 # --- COSTANTI DI SICUREZZA ---
-# Se le regole sono meno di queste, c'è stato un errore di download. Abort.
 MIN_RULES_THRESHOLD_BASE = 1000  
 MIN_RULES_THRESHOLD_PRO = 30000 
-
-# Limite teorico iOS 
 MAX_RULES_WARNING = 150000 
-
 
 def configure_logging(level: int = logging.INFO) -> None:
     logging.basicConfig(
@@ -37,11 +34,27 @@ def configure_logging(level: int = logging.INFO) -> None:
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
 
+def extract_rules(data: Union[List, Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Assicura che i dati siano una lista (formato richiesto da iOS).
+    Se è un dizionario (es. wrapper con versione), estrae la lista dalla chiave 'rules'.
+    """
+    if isinstance(data, list):
+        return data
+    
+    if isinstance(data, dict):
+        if "rules" in data and isinstance(data["rules"], list):
+            logger.info("📦 Extracted rules list from dictionary wrapper.")
+            return data["rules"]
+        else:
+            # Se è un dizionario ma non ha 'rules', c'è un problema strutturale
+            raise ValueError(f"❌ Data is a dict but missing 'rules' key. Keys found: {list(data.keys())}")
+            
+    raise ValueError(f"❌ Unknown data format: {type(data)}")
+
 def validate_output(file_path: Path, min_rules: int) -> int:
     """
     Controlla che il file JSON esista, sia valido e abbia un numero sufficiente di regole.
-    Ritorna il numero di regole trovate.
-    Lancia un'eccezione se il controllo fallisce.
     """
     if not file_path.exists():
         raise FileNotFoundError(f"❌ Output file missing: {file_path}")
@@ -106,11 +119,14 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # --- BASE GENERATION ---
-    base = build_base_list(all_domains, version=VERSION)
+    raw_base = build_base_list(all_domains, version=VERSION)
+    # FIX: Estraiamo la lista pura per iOS
+    base_rules = extract_rules(raw_base)
+    
     base_filename = "blockerList_base.json"
     base_path = output_dir / base_filename
     logger.info("Writing BASE blocker list to %s", base_path)
-    write_json(base, base_path)
+    write_json(base_rules, base_path)
     
     # SAFETY CHECK BASE
     validate_output(base_path, MIN_RULES_THRESHOLD_BASE)
@@ -121,11 +137,14 @@ def main() -> None:
     write_json(base_manifest, base_manifest_path)
 
     # --- PRO GENERATION ---
-    pro = build_pro_list(all_domains, version=VERSION)
+    raw_pro = build_pro_list(all_domains, version=VERSION)
+    # FIX: Estraiamo la lista pura per iOS
+    pro_rules = extract_rules(raw_pro)
+    
     pro_filename = "blockerList_pro.json"
     pro_path = output_dir / pro_filename
     logger.info("Writing PRO blocker list to %s", pro_path)
-    write_json(pro, pro_path)
+    write_json(pro_rules, pro_path)
 
     # SAFETY CHECK PRO
     validate_output(pro_path, MIN_RULES_THRESHOLD_PRO)
@@ -156,4 +175,4 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         logger.error(f"🔥 FATAL ERROR: {e}")
-        sys.exit(1) # Fa fallire il workflow di GitHub se qualcosa va storto
+        sys.exit(1)
