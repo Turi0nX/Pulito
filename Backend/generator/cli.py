@@ -45,7 +45,7 @@ def load_custom_whitelist() -> Set[str]:
     with whitelist_path.open("r", encoding="utf-8") as f:
         lines = f.readlines()
     
-    # Riutilizziamo il parser per pulire le righe (rimuovere commenti, spazi)
+    
     return set(parse_list(lines))
 
 def validate_output(file_path: Path, min_rules: int) -> int:
@@ -114,7 +114,7 @@ def main() -> None:
         parsed = parse_list(lines)
         all_domains_set.update(parsed)
 
-    # 5. OTTIMIZZAZIONE FINALE (The God-Tier Touch)
+    # 5. OTTIMIZZAZIONE FINALE 
     # - Rimuovi i domini in whitelist
     # - Ordina alfabeticamente (Determinismo)
     initial_count = len(all_domains_set)
