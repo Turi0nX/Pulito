@@ -11,11 +11,11 @@ logger = logging.getLogger(__name__)
 
 def embed_signature(privkey_path: Path, manifest_path: Path) -> None:
     """
-    Legge il manifest JSON, firma il campo 'blocker_list_hash' 
+    Legge il manifest JSON, firma il campo 'blocker_list_sha256' 
     e aggiunge il campo 'signature' al JSON stesso.
     """
     if not privkey_path.exists():
-        logger.warning(f" Private key not found at {privkey_path}. Skipping signature.")
+        logger.warning(f"⚠️  Private key not found at {privkey_path}. Skipping signature.")
         return
 
     # 1. Carica la chiave privata
@@ -26,12 +26,19 @@ def embed_signature(privkey_path: Path, manifest_path: Path) -> None:
     with open(manifest_path, 'r') as f:
         data = json.load(f)
 
-    # 3. Prepara il payload da firmare (l'hash della lista)
-    if 'blocker_list_hash' not in data:
-        logger.error(f" Manifest {manifest_path.name} missing 'blocker_list_hash'. Cannot sign.")
-        return
+    # 3. Prepara il payload da firmare
+    
+    target_field = 'blocker_list_sha256'
+    
+    if target_field not in data:
+        logger.error(f"❌ Manifest {manifest_path.name} missing '{target_field}'. Cannot sign.")
+        # Fallback per compatibilità se per caso si chiamasse 'blocker_list_hash'
+        if 'blocker_list_hash' in data:
+            target_field = 'blocker_list_hash'
+        else:
+            return
         
-    payload = data['blocker_list_hash'].encode('utf-8')
+    payload = data[target_field].encode('utf-8')
 
     # 4. Calcola la firma
     h = SHA256.new(payload)
