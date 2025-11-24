@@ -2,7 +2,7 @@
 //  AppEnviroment.swift
 //  
 //
-//  Created by Emanuele on 23/11/25.
+//  Created by on 23/11/25.
 //
 
 import Foundation

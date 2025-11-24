@@ -2,6 +2,6 @@
 //  PulitoApp.swift
 //  
 //
-//  Created by Emanuele Bellomo on 23/11/25.
+//  Created by on 23/11/25.
 //
 
