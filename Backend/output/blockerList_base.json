@@ -222236,6 +222236,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "luabrsxnfdloc.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "luagyywwmuq.xyz"
       ]
     },

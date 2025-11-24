@@ -222236,6 +222236,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "luabrsxnfdloc.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "luagyywwmuq.xyz"
       ]
     },
@@ -1106311,6 +1106322,15 @@
     },
     "action": {
       "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*"
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#onetrust-banner-sdk, .onetrust-pc-dark-filter, #iubenda-cs-banner, .iubenda-cs-content, #CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay, .qc-cmp2-container, #didomi-host, .fc-consent-root, #cookie-banner, .cookie-banner, #cookie-law-info-bar, .cli-modal-backdrop, #gdpr-cookie-message, .cc-banner, .cc-window"
     }
   }
 ]
