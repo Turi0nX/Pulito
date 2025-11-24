@@ -1,10 +1,15 @@
 import logging
+import sys
 from pathlib import Path
+
+# Aggiunta la root del backend al path per poter importare sign_manifest
+sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from generator.config import (
     INPUT_LIST_FILES,
     LISTS_DIR,
     OUTPUT_DIR,
+    KEYS_DIR,  
     VERSION,
 )
 from generator.downloader import refresh_remote_lists
@@ -12,6 +17,7 @@ from generator.manifest_builder import build_manifest
 from generator.parser import parse_list
 from generator.rules_builder import build_base_list, build_pro_list
 from generator.writer import write_json
+from sign_manifest import embed_signature  # <--- Importiamo la funzione di firma
 
 logger = logging.getLogger(__name__)
 
@@ -33,6 +39,7 @@ def main() -> None:
 
     # Remote lists
     for name, path in remote_files.items():
+        if not path: continue # Skip if download failed
         logger.info("Parsing remote list %s at %s", name, path)
         with path.open("r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -82,8 +89,15 @@ def main() -> None:
     logger.info("Writing PRO manifest to %s", pro_manifest_path)
     write_json(pro_manifest, pro_manifest_path)
 
+    # --- FIRMA (SIGNING) ---
+    logger.info("🔐 Signing manifests...")
+    privkey_path = KEYS_DIR / "pulito_privkey.pem"
+    
+    embed_signature(privkey_path, base_manifest_path)
+    embed_signature(privkey_path, pro_manifest_path)
+
     logger.info(
-        "Generation completed:\n  %s\n  %s\n  %s\n  %s",
+        "Generation completed successfully:\n  %s\n  %s\n  %s\n  %s",
         base_path,
         base_manifest_path,
         pro_path,

@@ -1,53 +1,50 @@
-from __future__ import annotations
-
-import argparse
-import sys
+import json
+import base64
+import logging
 from pathlib import Path
 
 from Crypto.PublicKey import RSA
 from Crypto.Signature import pkcs1_15
 from Crypto.Hash import SHA256
 
+logger = logging.getLogger(__name__)
 
-def sign_manifest(privkey_file: Path, manifest_file: Path, signed_manifest_file: Path) -> None:
-    if not privkey_file.is_file():
-        raise FileNotFoundError(f"Private key not found: {privkey_file}")
-    if not manifest_file.is_file():
-        raise FileNotFoundError(f"Manifest file not found: {manifest_file}")
+def embed_signature(privkey_path: Path, manifest_path: Path) -> None:
+    """
+    Legge il manifest JSON, firma il campo 'blocker_list_hash' 
+    e aggiunge il campo 'signature' al JSON stesso.
+    """
+    if not privkey_path.exists():
+        logger.warning(f" Private key not found at {privkey_path}. Skipping signature.")
+        return
 
-    with privkey_file.open("rb") as f:
-        private_key = RSA.import_key(f.read())
+    # 1. Carica la chiave privata
+    with open(privkey_path, 'rb') as f:
+        key = RSA.import_key(f.read())
 
-    with manifest_file.open("rb") as f:
-        data = f.read()
+    # 2. Leggi il Manifest esistente
+    with open(manifest_path, 'r') as f:
+        data = json.load(f)
 
-    h = SHA256.new(data)
-    signature = pkcs1_15.new(private_key).sign(h)
+    # 3. Prepara il payload da firmare (l'hash della lista)
+    if 'blocker_list_hash' not in data:
+        logger.error(f" Manifest {manifest_path.name} missing 'blocker_list_hash'. Cannot sign.")
+        return
+        
+    payload = data['blocker_list_hash'].encode('utf-8')
 
-    signed_manifest_file.parent.mkdir(parents=True, exist_ok=True)
-    with signed_manifest_file.open("wb") as f:
-        f.write(signature)
+    # 4. Calcola la firma
+    h = SHA256.new(payload)
+    signature = pkcs1_15.new(key).sign(h)
+    
+    # Codifica in Base64 per metterla nel JSON
+    signature_b64 = base64.b64encode(signature).decode('utf-8')
 
+    # 5. Aggiungi la firma al dizionario
+    data['signature'] = signature_b64
 
-def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Sign a manifest file.")
-    parser.add_argument("privkey_file", type=Path, help="Path to private RSA key (PEM)")
-    parser.add_argument("manifest_file", type=Path, help="Path to manifest file to sign")
-    parser.add_argument("signed_manifest_file", type=Path, help="Output path for signature")
-    return parser.parse_args(argv)
-
-
-def main(argv: list[str] | None = None) -> int:
-    args = parse_args(argv)
-    try:
-        sign_manifest(args.privkey_file, args.manifest_file, args.signed_manifest_file)
-    except Exception as exc:  # noqa: BLE001
-        print(f"Error signing manifest: {exc}", file=sys.stderr)
-        return 1
-
-    print("Manifest signed successfully.")
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+    # 6. Sovrascrivi il file JSON
+    with open(manifest_path, 'w') as f:
+        json.dump(data, f, indent=2)
+    
+    logger.info(f"🔐 Signed manifest: {manifest_path.name}")
