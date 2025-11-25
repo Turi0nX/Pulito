@@ -1,6 +1,6 @@
 import Foundation
 
-struct BlockerManifest: Decodable {
+struct BlockerManifest: Decodable, Sendable {
     let kind: String
     let version: String
     let generatedAt: Date

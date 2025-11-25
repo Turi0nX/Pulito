@@ -20,6 +20,7 @@
 		A87AAF1E2ED62593009E38CF /* StatPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAF122ED62593009E38CF /* StatPill.swift */; };
 		A87AAF202ED626D7009E38CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87AAF1F2ED626D7009E38CF /* Assets.xcassets */; };
 		A87AAF222ED62750009E38CF /* pulito_pubkey.pem in Resources */ = {isa = PBXBuildFile; fileRef = A87AAF212ED62750009E38CF /* pulito_pubkey.pem */; };
+		A87AAF472ED668ED009E38CF /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAF0A2ED62593009E38CF /* AppEnviroment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87AAF472ED668ED009E38CF /* AppEnviroment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
