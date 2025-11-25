@@ -1,6 +1,0 @@
-//
-//  PulitoHomeView.swift
-//  
-//
-//  Created by 
-

@@ -1,7 +1,0 @@
-//
-//  StatPill.swift
-//  
-//
-//  Created by 
-//
-

@@ -1,7 +1,0 @@
-//
-//  PulitoSettingsView.swift
-//  
-//
-//  Created by 
-//
-

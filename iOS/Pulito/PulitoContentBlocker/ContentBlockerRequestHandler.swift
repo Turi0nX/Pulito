@@ -2,7 +2,7 @@
 //  ContentBlockerRequestHandler.swift
 //  PulitoContentBlocker
 //
-//  Created by Emanuele Bellomo on 25/11/25.
+//  Created by Turi0nX
 //
 
 import UIKit

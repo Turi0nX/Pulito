@@ -23,13 +23,9 @@ final class ContentBlockerUpdater {
     private init() {}
 
     // URL dei manifest
-    private var baseManifestURL: URL {
-        URL(string: "https://Turi0nX.github.io/Pulito/Backend/output/manifest_base.json")!
-    }
+    private var baseManifestURL: URL { AppEnvironment.manifestBaseURL }
 
-    private var proManifestURL: URL {
-        URL(string: "https://Turi0nX.github.io/Pulito/Backend/output/manifest_pro.json")!
-    }
+    private var proManifestURL: URL { AppEnvironment.manifestProURL }
 
     private lazy var decoder: JSONDecoder = {
         let d = JSONDecoder()
@@ -78,7 +74,8 @@ final class ContentBlockerUpdater {
                                 completion: @escaping (Result<Bool, Error>) -> Void) {
 
         URLSession.shared.dataTask(with: manifestURL) { [weak self] data, response, error in
-            guard let self else { return }
+            // Swift 6 richiede un unwrap esplicito di self
+            guard let strongSelf = self else { return }
 
             if let error = error {
                 completion(.failure(ContentBlockerUpdaterError.networkError(error)))
@@ -94,7 +91,7 @@ final class ContentBlockerUpdater {
 
             do {
                 // 1. Decodifica manifest
-                let manifest = try self.decoder.decode(BlockerManifest.self, from: data)
+                let manifest = try strongSelf.decoder.decode(BlockerManifest.self, from: data)
 
                 // 2. Verifica firma RSA sul campo blocker_list_sha256
                 let ok = try RSASignatureVerifier.verify(
@@ -116,14 +113,14 @@ final class ContentBlockerUpdater {
                 }
 
                 // 4. Scarica la blocker list dal blocker_list_url del manifest
-                self.downloadBlockerList(from: manifest.blockerListURL) { result in
+                strongSelf.downloadBlockerList(from: manifest.blockerListURL) { result in
                     switch result {
                     case .failure(let error):
                         completion(.failure(error))
                     case .success(let listData):
                         do {
                             // 5. Salva nell’App Group
-                            try self.saveToAppGroup(data: listData, filename: outputFilename)
+                            try strongSelf.saveToAppGroup(data: listData, filename: outputFilename)
 
                             // 6. Aggiorna versione salvata
                             defaults?.set(manifest.version, forKey: versionKey)

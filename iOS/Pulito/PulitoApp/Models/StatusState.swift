@@ -1,7 +1,0 @@
-//
-//  StatusState.swift
-//  
-//
-//  Created by 
-//
-
