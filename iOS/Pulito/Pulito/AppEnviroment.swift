@@ -16,7 +16,7 @@ struct AppEnvironment {
     static let contentBlockerExtensionId: String = "com.Turi0nX.Pulito.PulitoContentBlocker"
 
     // Base URL del backend 
-    static let baseURL = URL(string: "https://Turi0nX.github.io/Pulito/Backend/output")!
+    static let baseURL = URL(string: "https://turi0nx.github.io/Pulito/Backend/output")!
 
     // Percorsi dei manifest
     static let manifestBasePath = "manifest_base.json"

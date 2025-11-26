@@ -16,6 +16,8 @@ enum ContentBlockerUpdaterError: Error {
     case appGroupContainerNotFound
 }
 
+
+
 @MainActor
 final class ContentBlockerUpdater {
     static let shared = ContentBlockerUpdater()
@@ -45,6 +47,33 @@ final class ContentBlockerUpdater {
         return d
     }()
 
+    // DEBUG-only network inspector: non altera la logica, stampa info utili
+        private func debugFetch(_ url: URL) async throws -> (Data, URLResponse) {
+        #if DEBUG
+            let start = Date()
+            do {
+                let (data, response) = try await URLSession.shared.data(from: url)
+                let duration = Date().timeIntervalSince(start)
+                if let http = response as? HTTPURLResponse {
+                    print("CBU-DBG: fetched \(url.absoluteString) -> \(http.statusCode) in \(String(format: "%.2f", duration))s, bytes:", data.count)
+                } else {
+                    print("CBU-DBG: fetched \(url.absoluteString) -> non-HTTP response in \(String(format: "%.2f", duration))s, bytes:", data.count)
+                }
+                if let s = String(data: data, encoding: .utf8), s.count < 2000 {
+                    print("CBU-DBG: body preview:\n\(s)")
+                } else if let s = String(data: data, encoding: .utf8) {
+                    print("CBU-DBG: body preview (truncated):\n\(String(s.prefix(1000)))…")
+                }
+                return (data, response)
+            } catch {
+                print("CBU-DBG: network error fetching \(url):", error)
+                throw error
+            }
+        #else
+            return try await URLSession.shared.data(from: url)
+        #endif
+        }
+    
     // MARK: - API pubbliche (async/await)
 
     /// Aggiorna la lista BASE.
@@ -76,7 +105,7 @@ final class ContentBlockerUpdater {
         // 1. Scarica il manifest
         let (data, response): (Data, URLResponse)
         do {
-            (data, response) = try await URLSession.shared.data(from: manifestURL)
+            (data, response) = try await debugFetch(manifestURL) //URLSession.shared.data(from: manifestURL)
         } catch {
             throw ContentBlockerUpdaterError.networkError(error)
         }
@@ -131,7 +160,7 @@ final class ContentBlockerUpdater {
 
     private func downloadBlockerList(from url: URL) async throws -> Data {
         do {
-            let (data, response) = try await URLSession.shared.data(from: url)
+            let (data, response) = try await debugFetch(url) //URLSession.shared.data(from: url)
 
             guard let http = response as? HTTPURLResponse,
                   (200..<300).contains(http.statusCode),
