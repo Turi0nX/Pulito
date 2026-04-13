@@ -6515,6 +6515,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "24replicas.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "24s1b0et1.de"
       ]
     },
@@ -6703,6 +6714,17 @@
       "url-filter": ".*",
       "if-domain": [
         "2639iqjkl.de"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "264b0a99f6.com"
       ]
     },
     "action": {
@@ -9969,6 +9991,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "3znoji162fuxp71whii.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "4058e46800.com"
       ]
     },
@@ -12147,6 +12180,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "55eebe8585.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "55labs.com"
       ]
     },
@@ -12269,6 +12313,17 @@
       "url-filter": ".*",
       "if-domain": [
         "57f6508c2d.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "57nz3vewokrl4zclcot5y.rest"
       ]
     },
     "action": {
@@ -13687,6 +13742,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "6863edcf06.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "68amt53h.de"
       ]
     },
@@ -14073,6 +14139,17 @@
       "url-filter": ".*",
       "if-domain": [
         "6h5n3f6kwifel7kti3rl.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "6hpebv4bicm5e78ewyiwvzyczz9q6ki.cfd"
       ]
     },
     "action": {
@@ -14590,6 +14667,17 @@
       "url-filter": ".*",
       "if-domain": [
         "730fcb332f.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "734map.net"
       ]
     },
     "action": {
@@ -16416,6 +16504,17 @@
       "url-filter": ".*",
       "if-domain": [
         "85132058.xyz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "8537b5712c.com"
       ]
     },
     "action": {
@@ -18450,6 +18549,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "9h6wuyen6kmm6rptqujjm2mkuij3bbpo6.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "9japride.com"
       ]
     },
@@ -19001,6 +19111,17 @@
       "url-filter": ".*",
       "if-domain": [
         "a-t.topya.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "a-todesk.com.cn"
       ]
     },
     "action": {
@@ -45598,6 +45719,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "a48300d8ed.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "a4b-tracking.com"
       ]
     },
@@ -66696,17 +66828,6 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
-        "acbp0020171456.page.tl"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": [
         "acbyweuyglhls.website"
       ]
     },
@@ -66916,7 +67037,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "acceptableweb.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "acceptancecrowdadvertising.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "acceptancedishearten.com"
       ]
     },
     "action": {
@@ -70426,6 +70569,17 @@
       "url-filter": ".*",
       "if-domain": [
         "acv.xn--lck7b0fy49k9y1b.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "acvddzqjjsofe.online"
       ]
     },
     "action": {
@@ -78346,17 +78500,6 @@
       "url-filter": ".*",
       "if-domain": [
         "adlux.com"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": [
-        "adlyticmarketing.com"
       ]
     },
     "action": {
@@ -93525,6 +93668,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "afevcgseg.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "aff-handler.com"
       ]
     },
@@ -95110,6 +95264,17 @@
       "url-filter": ".*",
       "if-domain": [
         "affyrtb.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "afgenqtscnbaw.space"
       ]
     },
     "action": {
@@ -97123,6 +97288,17 @@
       "url-filter": ".*",
       "if-domain": [
         "agort.xyz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "agoutalanker.cfd"
       ]
     },
     "action": {
@@ -100279,6 +100455,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ajqwfawt.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ajrkm1.com"
       ]
     },
@@ -101908,6 +102095,17 @@
       "url-filter": ".*",
       "if-domain": [
         "alessandriacalcio.it"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "alevinmicrohm.com"
       ]
     },
     "action": {
@@ -105978,6 +106176,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ammhmvurnghxn.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ammjpimhyon.in"
       ]
     },
     "action": {
@@ -116702,6 +116911,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "anoraksyeans.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "anormal-tracker.de"
       ]
     },
@@ -120652,6 +120872,28 @@
       "url-filter": ".*",
       "if-domain": [
         "app-uat.navyhealth.com.au"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "app-wegame.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "app-wg.com"
       ]
     },
     "action": {
@@ -132047,6 +132289,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "aqfifswfxjscsa.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "aqgcfebwdqgve.online"
       ]
     },
@@ -132125,6 +132378,17 @@
       "url-filter": ".*",
       "if-domain": [
         "aqjyauycgpbcwl.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "aqkcuwojb.in"
       ]
     },
     "action": {
@@ -132257,6 +132521,17 @@
       "url-filter": ".*",
       "if-domain": [
         "aqr.actonservice.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "aqrxpkilbxndv.site"
       ]
     },
     "action": {
@@ -132554,6 +132829,17 @@
       "url-filter": ".*",
       "if-domain": [
         "arabcontroversycrisis.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "arabiadebbiechints.qpon"
       ]
     },
     "action": {
@@ -134896,6 +135182,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "arzawaswarfpratt.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "as-i4.com.cn"
       ]
     },
@@ -135579,6 +135876,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ascitanstomp.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "asckmldtay.com"
       ]
     },
     "action": {
@@ -140869,6 +141177,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "atycuhsavdriywa.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "atyoureatth.org"
       ]
     },
@@ -142827,6 +143146,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "autwbeanqsrou.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "auwdff.dyfashion.ro"
       ]
     },
@@ -144731,6 +145061,17 @@
       "url-filter": ".*",
       "if-domain": [
         "awlov.info"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "awlqdqbphaw.com"
       ]
     },
     "action": {
@@ -149812,6 +150153,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "babbittickier.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "babbnrs.com"
       ]
     },
@@ -151286,6 +151638,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "bamaliphoodingromana.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "bambaraholokupulsers.cfd"
       ]
     },
@@ -151496,6 +151859,39 @@
       "url-filter": ".*",
       "if-domain": [
         "bandelcot.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "bandisoft.org"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "bandizip.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "bandizip.pro"
       ]
     },
     "action": {
@@ -153057,6 +153453,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "barfedtrema.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "barflyevolver.com"
       ]
     },
@@ -154059,6 +154466,17 @@
       "url-filter": ".*",
       "if-domain": [
         "baton.cuetv.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "batonbertie.shop"
       ]
     },
     "action": {
@@ -157589,6 +158007,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "beepergaily.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "beer2s.millerbrewing.com"
       ]
     },
@@ -157623,6 +158052,17 @@
       "url-filter": ".*",
       "if-domain": [
         "beethlatitatdrabble.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "beetlefreelylong.com"
       ]
     },
     "action": {
@@ -157722,6 +158162,17 @@
       "url-filter": ".*",
       "if-domain": [
         "befirstcdn.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "beflearappergobbets.cyou"
       ]
     },
     "action": {
@@ -160625,6 +161076,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "bestrutazygous.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "bestshoesboot.com"
       ]
     },
@@ -160901,6 +161363,17 @@
       "url-filter": ".*",
       "if-domain": [
         "beterrakionan.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "betesknublitster.qpon"
       ]
     },
     "action": {
@@ -162100,6 +162573,28 @@
       "url-filter": ".*",
       "if-domain": [
         "bfpxcbamfvhsl.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "bfqmudfvbfwnab.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "bfqrixq8w7wkgje.cfd"
       ]
     },
     "action": {
@@ -166224,6 +166719,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "bjiqmvkhrsa.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "bjjky.cfd"
       ]
     },
@@ -167248,6 +167754,17 @@
       "url-filter": ".*",
       "if-domain": [
         "blahorderly.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "blahsjheel.cfd"
       ]
     },
     "action": {
@@ -171603,6 +172120,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "bodegasdweeblepapulae.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "bodengirny.cyou"
       ]
     },
@@ -174298,6 +174826,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "bourrnouns.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "boursespepsis.qpon"
       ]
     },
@@ -175971,6 +176510,17 @@
       "url-filter": ".*",
       "if-domain": [
         "brahmsoily.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "braidercowpen.shop"
       ]
     },
     "action": {
@@ -178478,6 +179028,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "brenderbeheirakutch.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "brereulvan.shop"
       ]
     },
@@ -180227,6 +180788,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "brooshatchet.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "brosdefender.com"
       ]
     },
@@ -180931,7 +181503,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "brucinabloke.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "brugesgarner.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "brughsfatima.com"
       ]
     },
     "action": {
@@ -182175,6 +182769,17 @@
       "url-filter": ".*",
       "if-domain": [
         "btg360.com.br"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "btgenkqejaf.com"
       ]
     },
     "action": {
@@ -185408,6 +186013,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "butylplexor.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "butynevizir.cfd"
       ]
     },
@@ -185981,6 +186597,17 @@
       "url-filter": ".*",
       "if-domain": [
         "bvr.snva.jp"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "bvrlbroelweti.space"
       ]
     },
     "action": {
@@ -186695,6 +187322,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "bxtmmrjqyctv.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "bxtubfjlscnxw.space"
       ]
     },
@@ -187334,6 +187972,17 @@
       "url-filter": ".*",
       "if-domain": [
         "byxcbk.ipekevi.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "byzantsuncus.cyou"
       ]
     },
     "action": {
@@ -189303,6 +189952,17 @@
       "url-filter": ".*",
       "if-domain": [
         "caehtveorphwc.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "caeomastrioses.cyou"
       ]
     },
     "action": {
@@ -191733,6 +192393,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "candid-twist.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "candid.zone"
       ]
     },
@@ -192107,6 +192778,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "cansojdrsopsz.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "cansoopaloid.com"
       ]
     },
@@ -192383,6 +193065,17 @@
       "url-filter": ".*",
       "if-domain": [
         "capitalistsplitting.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "caplanameluyephede.cfd"
       ]
     },
     "action": {
@@ -193538,6 +194231,17 @@
       "url-filter": ".*",
       "if-domain": [
         "carolina.actonservice.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "caroluscressglave.qpon"
       ]
     },
     "action": {
@@ -195309,6 +196013,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cavewrap.care"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "cavityfutharc.shop"
       ]
     },
     "action": {
@@ -198388,6 +199103,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ceasmicdistn.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "cebiansmiting.cyou"
       ]
     },
@@ -198422,6 +199148,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cebrkisjmrm.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ceciliabotts.cyou"
       ]
     },
     "action": {
@@ -199961,6 +200698,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "cfbgxtwssfqah.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "cfcezivxdpevd.online"
       ]
     },
@@ -199995,6 +200743,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cfdfasdvrrfnj.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "cfdkxhkhrhbo.com"
       ]
     },
     "action": {
@@ -200182,6 +200941,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cfsaze.retailmenot.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "cfsfonftvkcny.site"
       ]
     },
     "action": {
@@ -202887,6 +203657,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "chessetchivey.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "chesspactionsnirtle.cfd"
       ]
     },
@@ -204240,6 +205021,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "chrismsmenfolk.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "christian.lifeway.com"
       ]
     },
@@ -205033,6 +205825,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cikorloimlxct.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "cikpbymahuipgp.com"
       ]
     },
     "action": {
@@ -207947,6 +208750,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "cleanguard.tech"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "cleanhaircut.com"
       ]
     },
@@ -208256,6 +209070,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cleavebullydevaluation.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "clecfcwjdgsoq.online"
       ]
     },
     "action": {
@@ -212380,6 +213205,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "cllgv9lkbjgftn.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "clmbtech.com"
       ]
     },
@@ -213602,6 +214438,17 @@
       "url-filter": ".*",
       "if-domain": [
         "clprr.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "clqmmy2lhc2qnfjvyxigxe95wb.cfd"
       ]
     },
     "action": {
@@ -214977,6 +215824,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cn-go.experian.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "cn-idm.com"
       ]
     },
     "action": {
@@ -219498,6 +220356,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cometquote.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "comfitdossel.cfd"
       ]
     },
     "action": {
@@ -230057,6 +230926,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "coryzaproximarowport.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "cosdate.jp"
       ]
     },
@@ -233775,6 +234655,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "cqqxewpxcfpop.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "cqrqudjmhslqh.website"
       ]
     },
@@ -234458,6 +235349,17 @@
       "url-filter": ".*",
       "if-domain": [
         "crampleadspace.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "crampygrucche.cfd"
       ]
     },
     "action": {
@@ -236383,6 +237285,17 @@
       "url-filter": ".*",
       "if-domain": [
         "crjwwppadygu.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "crlbtnjsqe.com"
       ]
     },
     "action": {
@@ -240122,6 +241035,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ctygrooirhjo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ctyjsf.cellphones.com.vn"
       ]
     },
@@ -240453,6 +241377,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cuegfjlcarbdq.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "cueistrapport.cyou"
       ]
     },
     "action": {
@@ -240816,6 +241751,17 @@
       "url-filter": ".*",
       "if-domain": [
         "culmedpasses.cam"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "culmingremixes.cyou"
       ]
     },
     "action": {
@@ -243719,6 +244665,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "cvpotrpkppdq.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "cvpthv.vipoutlet.com"
       ]
     },
@@ -244534,6 +245491,17 @@
       "url-filter": ".*",
       "if-domain": [
         "cxusbvbsg.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "cxutqsjbwtkth.website"
       ]
     },
     "action": {
@@ -257447,6 +258415,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "d6fc2de2ee.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "d6l5p6w9iib9r.cloudfront.net"
       ]
     },
@@ -259262,6 +260241,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "damp-opportunity.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "dampdock.com"
       ]
     },
@@ -259923,6 +260913,17 @@
       "url-filter": ".*",
       "if-domain": [
         "darwinpoliticslonger.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "darylholked.cfd"
       ]
     },
     "action": {
@@ -268898,6 +269899,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "dcerypvyrkeyk.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "dcff90fa75.com"
       ]
     },
@@ -269757,6 +270769,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ddd1cb4508.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dddeenkkaln.com"
       ]
     },
     "action": {
@@ -273958,6 +274981,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "delqphfqgnrty.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "deltaexecutor.io"
       ]
     },
@@ -275026,6 +276060,17 @@
       "url-filter": ".*",
       "if-domain": [
         "deployinput.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "deportdalai.qpon"
       ]
     },
     "action": {
@@ -278105,6 +279150,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "dgvhzcxksncni.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "dgvyotlviwipm.site"
       ]
     },
@@ -278183,6 +279239,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dgztiz.conrad.se"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dgzykxavrvekj.site"
       ]
     },
     "action": {
@@ -286289,6 +287356,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "diwvsftmdqhyo.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "dixxiowrgeame.online"
       ]
     },
@@ -286510,6 +287588,17 @@
       "url-filter": ".*",
       "if-domain": [
         "djgqucjpunwhs.store"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "djhnxgqlswkfh.site"
       ]
     },
     "action": {
@@ -287180,6 +288269,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "dkrnlccknrlqz.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "dkskbu.demae-can.com"
       ]
     },
@@ -287214,6 +288314,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dkupaw9ae63a8.cloudfront.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dkupbrast.cyou"
       ]
     },
     "action": {
@@ -287335,6 +288446,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dl-rms.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dl-sogou.com"
       ]
     },
     "action": {
@@ -288347,6 +289469,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dlqxtm.sssports.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dlrcygrcsstrh.website"
       ]
     },
     "action": {
@@ -290920,6 +292053,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "dokbhidfkrocq.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "dokondigit.quest"
       ]
     },
@@ -290932,6 +292076,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dokopka.icu"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dolapdarmbldn.site"
       ]
     },
     "action": {
@@ -293517,6 +294672,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dowvebulimiakhahoon.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "doxakuwbtiaum.online"
       ]
     },
     "action": {
@@ -296234,6 +297400,17 @@
       "url-filter": ".*",
       "if-domain": [
         "drwfkzlumcyob.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "drwudhmd.com"
       ]
     },
     "action": {
@@ -299071,6 +300248,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "duuabhipmloqh.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "duujwfceivrra.site"
       ]
     },
@@ -300347,6 +301535,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "dxnuuonyur.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "dxohqmjdcdmm.com"
       ]
     },
@@ -300414,6 +301613,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dxpcfccbgxlmy.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dxpogtsfwveup.space"
       ]
     },
     "action": {
@@ -301371,6 +302581,17 @@
       "url-filter": ".*",
       "if-domain": [
         "dzforp.buscape.com.br"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "dzgblqdbbjehb.website"
       ]
     },
     "action": {
@@ -307607,6 +308828,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ecnikbpb2gy8zo3u1.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ecntpxvcdvmsn.website"
       ]
     },
@@ -309158,6 +310390,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ednbtieurjqxm.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ednewsbd.com"
       ]
     },
@@ -309962,6 +311205,17 @@
       "url-filter": ".*",
       "if-domain": [
         "eefcdueqqznvm.click"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "eegpdtputhuiz.site"
       ]
     },
     "action": {
@@ -311732,6 +312986,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ehiequsqbphyi.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ehiyxlnuujkps.store"
       ]
     },
@@ -311821,6 +313086,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ehpsyxxb.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ehqufypefcfkx.site"
       ]
     },
     "action": {
@@ -312602,6 +313878,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ejgmkvprpjqww.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ejgsjmhnuwhws.website"
       ]
     },
     "action": {
@@ -314439,6 +315726,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ellanfoistbromins.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ellasarcourtal.cyou"
       ]
     },
     "action": {
@@ -321137,6 +322435,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "emotionalshoot.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "emotivejinx.top"
       ]
     },
@@ -321578,6 +322887,17 @@
       "url-filter": ".*",
       "if-domain": [
         "emufimenpcwsl.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "emumsazpndymr.space"
       ]
     },
     "action": {
@@ -326538,6 +327858,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "eojnmxdvcgozv.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "eokbuxljvlfwm.space"
       ]
     },
@@ -327165,6 +328496,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "epitelanewnessagunah.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "epito.xyz"
       ]
     },
@@ -327639,6 +328981,17 @@
       "url-filter": ".*",
       "if-domain": [
         "eqads.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "eqagmbxnaiety.com"
       ]
     },
     "action": {
@@ -328573,6 +329926,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "erf9okt8638cgywhpn3zxchg4y7h8ki9.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ergent.xyz"
       ]
     },
@@ -328618,6 +329982,17 @@
       "url-filter": ".*",
       "if-domain": [
         "erhkyebogpkfk.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "erhlyvjhetcad.online"
       ]
     },
     "action": {
@@ -331324,6 +332699,17 @@
       "url-filter": ".*",
       "if-domain": [
         "etobeasasile.org"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "etoefwatm.com"
       ]
     },
     "action": {
@@ -335998,6 +337384,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "evopmncakdrrg.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "evorra.net"
       ]
     },
@@ -336339,6 +337736,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "eweyefuujlrvsr.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ewfarp.kappa.com"
       ]
     },
@@ -336384,6 +337792,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ewgfxfujz.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ewglmxltkppzj.online"
       ]
     },
     "action": {
@@ -336483,6 +337902,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ewnkihlavfnv.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ewnrvw9j1pone8qhg1b.rest"
       ]
     },
     "action": {
@@ -337538,6 +338968,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "executors2550.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "executors456.com"
       ]
     },
@@ -337594,6 +339035,17 @@
       "url-filter": ".*",
       "if-domain": [
         "exemplarfederallithe.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "exemplarpocketbookstore.com"
       ]
     },
     "action": {
@@ -338903,6 +340355,17 @@
       "url-filter": ".*",
       "if-domain": [
         "experttrafficcounter.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "expiredcyprian.shop"
       ]
     },
     "action": {
@@ -340277,6 +341740,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "eyeletmaundsrimed.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "eyelidgoggleundo.com"
       ]
     },
@@ -340454,6 +341928,17 @@
       "url-filter": ".*",
       "if-domain": [
         "eykcjdmmtsoykl.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "eyknbgdtgsecp.com"
       ]
     },
     "action": {
@@ -341223,6 +342708,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "f-sogou.com.cn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "f-tra.com"
       ]
     },
@@ -341817,6 +343313,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "faaghupwithrd.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "faaof.com"
       ]
     },
@@ -342367,6 +343874,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "fadiyqfhdrots.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "fadppvjumphyh.online"
       ]
     },
@@ -342455,6 +343973,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "faenasthereoflalo.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "fafflebotry.shop"
       ]
     },
@@ -342522,6 +344051,17 @@
       "url-filter": ".*",
       "if-domain": [
         "fagtgb.acorn.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "fahfhyppgdhdh.online"
       ]
     },
     "action": {
@@ -345458,6 +346998,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "fbdcuiaazykhr.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "fbdjpebrvocxf.website"
       ]
     },
@@ -348109,6 +349660,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "feqwggxdibzmq.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "fer2oxheou4nd.com"
       ]
     },
@@ -348979,6 +350541,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ffe390afd658c19dcbf707e0597b846d.de"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ffebrjkvxsrlx.online"
       ]
     },
     "action": {
@@ -355028,6 +356601,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "flingrearray.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "flintdepreciate.com"
       ]
     },
@@ -355589,6 +357173,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "floozybalkish.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "floralrichardapprentice.com"
       ]
     },
@@ -355612,6 +357207,17 @@
       "url-filter": ".*",
       "if-domain": [
         "florasvoyagedsnuffly.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "florulaplumose.cfd"
       ]
     },
     "action": {
@@ -358691,6 +360297,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "forelaymontemhallo.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "foremedia.net"
       ]
     },
@@ -358725,6 +360342,17 @@
       "url-filter": ".*",
       "if-domain": [
         "forepawsbarren.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "foresaytumors.cyou"
       ]
     },
     "action": {
@@ -360539,6 +362167,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "forwornahurewa.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "foryouswk.jp"
       ]
     },
@@ -361706,6 +363345,17 @@
       "url-filter": ".*",
       "if-domain": [
         "fpghll.rossmann.hu"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "fpgwgwvv.com"
       ]
     },
     "action": {
@@ -365280,6 +366930,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "frmedredht.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "frmhktwjerprp.store"
       ]
     },
@@ -365589,6 +367250,17 @@
       "url-filter": ".*",
       "if-domain": [
         "frontinventory.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "frontissubdual.cfd"
       ]
     },
     "action": {
@@ -369834,6 +371506,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "fvshtopscoeki.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "fvtbmozgyaasj.website"
       ]
     },
@@ -370374,6 +372057,17 @@
       "url-filter": ".*",
       "if-domain": [
         "fxlcwwjtagb.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "fxlubneuutm.com"
       ]
     },
     "action": {
@@ -371814,6 +373508,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "g6549pn731ik6h.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "g792337340.co"
       ]
     },
@@ -372749,6 +374454,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "galleonentopic.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gallerysouvlakeri.openapp.link"
       ]
     },
@@ -373289,6 +375005,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gamingonline.top"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gamingstapalo.cyou"
       ]
     },
     "action": {
@@ -380559,6 +382286,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "gewgawssplurt.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gexdrbaeokoxr.website"
       ]
     },
@@ -380791,6 +382529,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gfkfqilsulylx.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gflnurairzyv.com"
       ]
     },
     "action": {
@@ -381109,6 +382858,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ggcgrzir.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ggduev.cobone.com"
       ]
     },
@@ -381264,6 +383024,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ggpbuvhzihxxh.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ggpkyvsokroop.online"
       ]
     },
     "action": {
@@ -381671,6 +383442,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ghostsinstance.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ghoulshuldah.cfd"
       ]
     },
     "action": {
@@ -382166,6 +383948,17 @@
       "url-filter": ".*",
       "if-domain": [
         "giftplanning.westmont.edu"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gifzymome.cfd"
       ]
     },
     "action": {
@@ -383420,6 +385213,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gjqlxuffmatsp.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gjridoht.com"
       ]
     },
     "action": {
@@ -387467,6 +389271,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "go-todesk.hl.cn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "go-trust.co.com"
       ]
     },
@@ -387490,6 +389305,17 @@
       "url-filter": ".*",
       "if-domain": [
         "go-usertrack-importer.pub.24ur.si"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "go-wegame.com"
       ]
     },
     "action": {
@@ -395013,6 +396839,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "gonjvollibuj.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gonreommon.com"
       ]
     },
@@ -395025,6 +396862,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gonujovux.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gonyjuhqbosdn.space"
       ]
     },
     "action": {
@@ -396905,6 +398753,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "gozpbayyfhkdv.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gp.dejanews.com"
       ]
     },
@@ -397522,6 +399381,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gqnfkfrunjxdw.world"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gqpamwkausytn.online"
       ]
     },
     "action": {
@@ -400887,6 +402757,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "grtijxakkewcj.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "grtya.com"
       ]
     },
@@ -401075,6 +402956,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gruftancolyanepia.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gruidaeedna.shop"
       ]
     },
     "action": {
@@ -401580,6 +403472,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "gsgmbalessijt.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gsgonebya.com"
       ]
     },
@@ -401900,6 +403803,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gswiikktdwsel.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gswobzijgqeyy.space"
       ]
     },
     "action": {
@@ -402736,6 +404650,17 @@
       "url-filter": ".*",
       "if-domain": [
         "guestconspiracy.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gugcxdrdxe.com"
       ]
     },
     "action": {
@@ -404198,6 +406123,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "gwqzmgmedlxrz.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gwropn.soelu.com"
       ]
     },
@@ -404539,6 +406475,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "gxuyehweexohs.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gxyaxf.pixartprinting.be"
       ]
     },
@@ -404595,6 +406542,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gyazo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gybcmurbzspdr.space"
       ]
     },
     "action": {
@@ -405210,6 +407168,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "gze7bww5tzph2p6upyun.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "gzefeydgsckbj.online"
       ]
     },
@@ -405299,6 +407268,17 @@
       "url-filter": ".*",
       "if-domain": [
         "gzoozkenpgaua.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "gzoznnypuhodq.site"
       ]
     },
     "action": {
@@ -405915,6 +407895,17 @@
       "url-filter": ".*",
       "if-domain": [
         "haggardsingefang.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "hagglyabacli.cfd"
       ]
     },
     "action": {
@@ -408367,6 +410358,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "harsletapardon.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hartaleraserssitup.cyou"
       ]
     },
@@ -410172,6 +412174,17 @@
       "url-filter": ".*",
       "if-domain": [
         "hchwkwwflqsrc.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "hci4jt1tr8i24vyeuhh.rest"
       ]
     },
     "action": {
@@ -412965,6 +414978,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "helplessdecision.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "helplive-ledger.com"
       ]
     },
@@ -415297,6 +417321,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "hgftxoyvtkdny.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hgfzpoblldulf.space"
       ]
     },
@@ -415903,6 +417938,17 @@
       "url-filter": ".*",
       "if-domain": [
         "hhowyijfffxry.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "hhpqddtmkuxhd.website"
       ]
     },
     "action": {
@@ -422084,6 +424130,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "hnbanvxtkavun.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hnbmbgagxwyqd.site"
       ]
     },
@@ -423778,6 +425835,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "home-wegame.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "home.edm.globalsources.com"
       ]
     },
@@ -424725,6 +426793,17 @@
       "url-filter": ".*",
       "if-domain": [
         "hoorayattract.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "hooraysrhumbarctium.cfd"
       ]
     },
     "action": {
@@ -427496,6 +429575,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "hpksppeewaoyu.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hpkuxkhsulgtf.space"
       ]
     },
@@ -428827,6 +430917,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "hroxzeacto.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hrpbmvgbihfac.site"
       ]
     },
@@ -428861,6 +430962,17 @@
       "url-filter": ".*",
       "if-domain": [
         "hrqmbugn.xyz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "hrqnethvkcqw.com"
       ]
     },
     "action": {
@@ -429389,6 +431501,17 @@
       "url-filter": ".*",
       "if-domain": [
         "hsmehkdosatlz.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "hsmgnobyomsea.space"
       ]
     },
     "action": {
@@ -430543,6 +432666,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "hub-wegame.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hub.com.pl"
       ]
     },
@@ -431204,6 +433338,17 @@
       "url-filter": ".*",
       "if-domain": [
         "huitaintimote.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "hujinbqzfqbvj.site"
       ]
     },
     "action": {
@@ -433700,6 +435845,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "hwzuyzwmmnsrgq.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hx9t83vx.xyz"
       ]
     },
@@ -435757,6 +437913,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "hznlphxxszxpk.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "hznmppcnyvdnr.online"
       ]
     },
@@ -437473,6 +439640,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ibalyhpklbacx.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ibamolecular.actonservice.com"
       ]
     },
@@ -438354,6 +440532,17 @@
       "url-filter": ".*",
       "if-domain": [
         "icetraff.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "icetrwgwyyftv.website"
       ]
     },
     "action": {
@@ -443633,6 +445822,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "iirmuveissgfx.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "iirpzp.novasol.com"
       ]
     },
@@ -444414,6 +446614,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ikkkuqytkttyu.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ikl68vfr1g4258kxu.rest"
       ]
     },
@@ -444733,6 +446944,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ilegmeqrbxnwv.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ilepwo.bonprix.at"
       ]
     },
@@ -444800,6 +447022,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ilgiornaledellaprotezionecivile.it"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ilgpscfvwohwr.space"
       ]
     },
     "action": {
@@ -451641,6 +453874,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "imagisteyases.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "imamateblithe.cfd"
       ]
     },
@@ -454226,6 +456470,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "importconsyminutia.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "importedinsect.com"
       ]
     },
@@ -456129,6 +458384,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "increase-rev1.static-cloudflare.workers.dev"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "increaserev.com"
       ]
     },
@@ -456163,6 +458429,17 @@
       "url-filter": ".*",
       "if-domain": [
         "increaserev4.static-cloudflare.workers.dev"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "increaserev5.static-cloudflare.workers.dev"
       ]
     },
     "action": {
@@ -466997,6 +469274,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "inhaulsdehachefogged.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "inhaulsfart.cyou"
       ]
     },
@@ -474191,6 +476479,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ioortmymneckc.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ioovmg.flexicar.es"
       ]
     },
@@ -474247,6 +476546,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ioqdsyklgsuhc.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ioqmlykmgplfz.space"
       ]
     },
     "action": {
@@ -482078,6 +484388,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "iwvxbrnsrpbv.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "iwvxwcsvpfbmc.store"
       ]
     },
@@ -482222,6 +484543,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ixcirsgywnnmi.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ixdhtszsircsl.site"
       ]
     },
     "action": {
@@ -483024,6 +485356,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "iyodewlrk.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "iypxxhjdiwggg.website"
       ]
     },
@@ -483454,6 +485797,17 @@
       "url-filter": ".*",
       "if-domain": [
         "izfogaydloceo.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "izfvxmcjxrlnb.space"
       ]
     },
     "action": {
@@ -484146,7 +486500,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "jaapwinevat.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "jaavnacsdw.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "jabgbmoddpmjp.site"
       ]
     },
     "action": {
@@ -484565,6 +486941,17 @@
       "url-filter": ".*",
       "if-domain": [
         "jaegerspocobarms.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "jaegervitallydele.cyou"
       ]
     },
     "action": {
@@ -485544,6 +487931,17 @@
       "url-filter": ".*",
       "if-domain": [
         "jarsneakymoisture.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "jartibbinght.com"
       ]
     },
     "action": {
@@ -492275,6 +494673,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "jjhljbqwiowfa.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "jjhqlyesuecsb.site"
       ]
     },
@@ -492452,6 +494861,17 @@
       "url-filter": ".*",
       "if-domain": [
         "jjmvlzvmuk.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "jjnbwtvqfhyav.space"
       ]
     },
     "action": {
@@ -496400,6 +498820,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "jomtingi.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "jonahshoddy.qpon"
       ]
     },
@@ -497501,6 +499932,17 @@
       "url-filter": ".*",
       "if-domain": [
         "jpddnngjhpbme.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "jpdvqxfqnriyn.website"
       ]
     },
     "action": {
@@ -503253,6 +505695,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "jvrbmsrtvpzst.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "jvrwil.gabor.de"
       ]
     },
@@ -504266,6 +506719,17 @@
       "url-filter": ".*",
       "if-domain": [
         "jxvrhx.fotokoch.de"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "jxw1wqk7npgy82ihte.rest"
       ]
     },
     "action": {
@@ -510513,6 +512977,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "kenafssubet.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "kendirmyopias.cfd"
       ]
     },
@@ -511207,6 +513682,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ketoleuncubic.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ketoneaccruer.shop"
       ]
     },
     "action": {
@@ -511966,6 +514452,17 @@
       "url-filter": ".*",
       "if-domain": [
         "kfwolwopegike.love"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "kfx4vg9rbh4397k52t8o.cfd"
       ]
     },
     "action": {
@@ -516201,6 +518698,17 @@
       "url-filter": ".*",
       "if-domain": [
         "klfjgxummdjb.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "klfxpnwgqasds.space"
       ]
     },
     "action": {
@@ -521194,6 +523702,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "kpaockfu.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "kpbmqxucd.com"
       ]
     },
@@ -521261,6 +523780,17 @@
       "url-filter": ".*",
       "if-domain": [
         "kpeobras.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "kpevufluwdgsy.website"
       ]
     },
     "action": {
@@ -521733,6 +524263,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "kqgtlbkwxzewo.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "kqhckf.outfits24.de"
       ]
     },
@@ -521932,6 +524473,17 @@
       "url-filter": ".*",
       "if-domain": [
         "kqsebncdjeuuj.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "kqtbwyrudcgeoe.com"
       ]
     },
     "action": {
@@ -522284,6 +524836,17 @@
       "url-filter": ".*",
       "if-domain": [
         "krhmtdzuxxmsc.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "kri45879oupj5plpcl.cfd"
       ]
     },
     "action": {
@@ -523889,6 +526452,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "kubqfszekybaw.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "kucelglfptill.site"
       ]
     },
@@ -525341,6 +527915,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "kwbnmsswawpho.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "kwbpge.jra-van.jp"
       ]
     },
@@ -525991,6 +528576,17 @@
       "url-filter": ".*",
       "if-domain": [
         "kxfnuquwjicjt.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "kxg49cluu2t3g7.rest"
       ]
     },
     "action": {
@@ -526738,6 +529334,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "kyrelune.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "kyriedowager.com"
       ]
     },
@@ -526772,6 +529379,17 @@
       "url-filter": ".*",
       "if-domain": [
         "kyson.kakao.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "kysszdtqwnbvu.online"
       ]
     },
     "action": {
@@ -527289,6 +529907,17 @@
       "url-filter": ".*",
       "if-domain": [
         "kzsisc.3.dk"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "kzslzfuvnrmxz.online"
       ]
     },
     "action": {
@@ -528685,6 +531314,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "l1le6x3v87bjn3b.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "l1native.com"
       ]
     },
@@ -529620,6 +532260,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ladrugkmeodg.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ladsabs.com"
       ]
     },
@@ -530028,6 +532679,17 @@
       "url-filter": ".*",
       "if-domain": [
         "laiwujiaoyu.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "lajlvtxix.com"
       ]
     },
     "action": {
@@ -531776,6 +534438,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "lappetboites.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "lappingcalamus.cfd"
       ]
     },
@@ -533074,6 +535747,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "launoiibcxdom.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "laurel.macrovision.com"
       ]
     },
@@ -533504,6 +536188,17 @@
       "url-filter": ".*",
       "if-domain": [
         "laycosmicstill.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "laydeafest.shop"
       ]
     },
     "action": {
@@ -534141,6 +536836,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "lbsdxpyiuukooy.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "lbszsbzuupnoe.online"
       ]
     },
@@ -534461,6 +537167,17 @@
       "url-filter": ".*",
       "if-domain": [
         "lcfzdtilsbpiu.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "lcgjjilmrlzkk.space"
       ]
     },
     "action": {
@@ -537650,6 +540367,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "leentjdotzcmu.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "leepigroazo.net"
       ]
     },
@@ -538431,6 +541159,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "lemansodalisk.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "lementwrencespri.com"
       ]
     },
@@ -538696,6 +541435,17 @@
       "url-filter": ".*",
       "if-domain": [
         "lengthprogrammingdiminish.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "lengthwahahe.shop"
       ]
     },
     "action": {
@@ -539180,6 +541930,17 @@
       "url-filter": ".*",
       "if-domain": [
         "lesjhcskvsgjw.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "lessescalzone.shop"
       ]
     },
     "action": {
@@ -540302,6 +543063,17 @@
       "url-filter": ".*",
       "if-domain": [
         "lfgoielaksccl.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "lfhrijmrvsv.com"
       ]
     },
     "action": {
@@ -542887,6 +545659,17 @@
       "url-filter": ".*",
       "if-domain": [
         "lif4wtefrkzho1.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "life-certain.jp"
       ]
     },
     "action": {
@@ -556713,6 +559496,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "liwgmlfvpxbch.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "liwmwijpufa.com"
       ]
     },
@@ -557209,6 +560003,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ljsr-ijbcxvq.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ljuacmmwrhmle.site"
       ]
     },
     "action": {
@@ -558496,6 +561301,17 @@
       "url-filter": ".*",
       "if-domain": [
         "lltvyepqcqelw.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "lluqlhdvvucid.site"
       ]
     },
     "action": {
@@ -560849,6 +563665,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "locarnocovingdzeron.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "locatejav182.fun"
       ]
     },
@@ -562522,6 +565349,17 @@
       "url-filter": ".*",
       "if-domain": [
         "loggieget.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "loggieilot.cyou"
       ]
     },
     "action": {
@@ -567713,6 +570551,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "lp6v4zimwtoj367wgwvj.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "lpahravhqzxif.space"
       ]
     },
@@ -571937,6 +574786,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "lukvmrrxwnxwa.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "lukyday.xyz"
       ]
     },
@@ -574258,6 +577118,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "lwkxfllgvcip.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "lwlhmnqlzvjvu.site"
       ]
     },
@@ -574754,6 +577625,17 @@
       "url-filter": ".*",
       "if-domain": [
         "lxiedzafhalko.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "lxispdaexhmzz.online"
       ]
     },
     "action": {
@@ -582619,6 +585501,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mananabumpingbf.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "manasicbungey.qpon"
       ]
     },
     "action": {
@@ -601835,6 +604728,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "maskinsazulejorouleau.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "masklink.org"
       ]
     },
@@ -602385,6 +605289,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "matchingrelationspint.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "matchjunkie.com"
       ]
     },
@@ -602452,6 +605367,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mateinoma.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mateleyunrowed.qpon"
       ]
     },
     "action": {
@@ -604806,6 +607732,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mbzavqzuxplxf.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mbzfsfrgdydpb.website"
       ]
     },
     "action": {
@@ -630941,7 +633878,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "mfqsbgbmd.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "mfrmls.actonservice.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mfrvwwyviutsk.website"
       ]
     },
     "action": {
@@ -631832,6 +634791,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "mgvfsxykybhze.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "mgwawoyupykxh.online"
       ]
     },
@@ -631932,6 +634902,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mhbidibrpcbky.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mhbpepxcxhrwfp.com"
       ]
     },
     "action": {
@@ -632130,6 +635111,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mhlezkarznvwe.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mhlzxcieymrw.com"
       ]
     },
     "action": {
@@ -634307,6 +637299,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "milsiesabring.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "milterismaili.cfd"
       ]
     },
@@ -636244,6 +639247,17 @@
       "url-filter": ".*",
       "if-domain": [
         "misleadgifted.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "misleargluedplafond.cyou"
       ]
     },
     "action": {
@@ -638443,6 +641457,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "mksjdsaxedndq.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "mksogv.oneclickdrive.com"
       ]
     },
@@ -639511,6 +642536,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mlkklg.suncamp.de"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mlkonxcccvzck.online"
       ]
     },
     "action": {
@@ -643184,6 +646220,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "mojarrascripts.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "mojinchuanqi.com"
       ]
     },
@@ -644416,6 +647463,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "monksbiduous.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "monnyalkoxylbrandon.cyou"
       ]
     },
@@ -645308,6 +648366,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mooseway.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "moosrubble.com"
       ]
     },
     "action": {
@@ -648388,6 +651457,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mprfxujnzmrfj.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mpriufndzvqwc.site"
       ]
     },
     "action": {
@@ -653095,6 +656175,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "muncherkarbi.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "munchkin.marketo.net"
       ]
     },
@@ -654174,6 +657265,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mutcheng.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mutedopiates.shop"
       ]
     },
     "action": {
@@ -655571,6 +658673,17 @@
       "url-filter": ".*",
       "if-domain": [
         "mwxxgdhvhdrgt.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "mwznlpivkknmfn.com"
       ]
     },
     "action": {
@@ -657737,6 +660850,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "mymcxxguwlzjc.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "mymercy.click"
       ]
     },
@@ -659035,6 +662159,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "myxacivitas.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "myxstalk.lol"
       ]
     },
@@ -659971,6 +663106,17 @@
       "url-filter": ".*",
       "if-domain": [
         "n74s9.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "n8jyfo29jm1ecvwg83pmzecx.rest"
       ]
     },
     "action": {
@@ -662280,6 +665426,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "natronsserdabsplotty.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nats.xing.com"
       ]
     },
@@ -663908,6 +667065,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ncdplvdquspma.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nceexam.quantresear.ch"
       ]
     },
@@ -664206,6 +667374,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nct.ui-portal.de"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nctmwluyknbwl.website"
       ]
     },
     "action": {
@@ -664756,6 +667935,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ndtheyeiedm.info"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ndtkxygpdzcdq.website"
       ]
     },
     "action": {
@@ -670739,6 +673929,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ngbmozpzslhtu.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ngbn.net"
       ]
     },
@@ -670993,6 +674194,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nglmedia.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nglqmotpfinwq.website"
       ]
     },
     "action": {
@@ -672323,6 +675535,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "nicolasrhumbaenfile.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nicoltimor.cyou"
       ]
     },
@@ -672478,6 +675701,17 @@
       "url-filter": ".*",
       "if-domain": [
         "niecesweep.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "niellosrebatepanctia.cfd"
       ]
     },
     "action": {
@@ -674094,6 +677328,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "niwocgaqsx.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "niwooghu.com"
       ]
     },
@@ -674655,6 +677900,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "njunyihalsdvb.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "njvhktxvqdrcj.xyz"
       ]
     },
@@ -674722,6 +677978,17 @@
       "url-filter": ".*",
       "if-domain": [
         "njxrpzdwiduhs.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "njyjqkggyxjplm.com"
       ]
     },
     "action": {
@@ -675140,6 +678407,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nkxueeouyxcky.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nkyavipvkfxgo.online"
       ]
     },
     "action": {
@@ -676822,6 +680100,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "nnraytheon.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nnsaahrxibbxb.online"
       ]
     },
@@ -677725,6 +681014,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nojtkmi5iux1o49.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nojumqcgndukm.site"
       ]
     },
     "action": {
@@ -679275,6 +682575,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "notbeholdmoineau.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "notcardboard.com"
       ]
     },
@@ -680529,6 +683840,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "nowaysdrams.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nowbtnuyljyvw.website"
       ]
     },
@@ -680750,6 +684072,17 @@
       "url-filter": ".*",
       "if-domain": [
         "noxiousrequirement.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "noxiousspell.pro"
       ]
     },
     "action": {
@@ -681003,6 +684336,17 @@
       "url-filter": ".*",
       "if-domain": [
         "npikafhu.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "npismiad.in"
       ]
     },
     "action": {
@@ -681585,6 +684929,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "nqdrbwtcsu.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nqdxwmnpjpoiw.site"
       ]
     },
@@ -681685,6 +685040,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nqiccievugptys.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nqidmrpif.com"
       ]
     },
     "action": {
@@ -685237,6 +688603,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "nungcjtbkmbvi.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "nunnujvsoodd.xyz"
       ]
     },
@@ -685755,6 +689132,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nuxaunjucpepp.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nuxp9z1wl15ve2.rest"
       ]
     },
     "action": {
@@ -686382,6 +689770,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nvyvtgxnccdgm.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nw5jlip562xbwq.cfd"
       ]
     },
     "action": {
@@ -688098,6 +691497,17 @@
       "url-filter": ".*",
       "if-domain": [
         "nzcoxqzuamcce.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "nzdgwkwrkkyk.com"
       ]
     },
     "action": {
@@ -690506,6 +693916,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "obesekeenpassim.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "obetmwbxfdswe.store"
       ]
     },
@@ -692332,6 +695753,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ocijnhmnvjsdq.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ocinzfdyslxja.online"
       ]
     },
@@ -692871,6 +696303,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "octopeddefoam.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "octopedentr.help"
       ]
     },
@@ -692993,6 +696436,17 @@
       "url-filter": ".*",
       "if-domain": [
         "oculatesackman.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "oculilegate.shop"
       ]
     },
     "action": {
@@ -693279,6 +696733,17 @@
       "url-filter": ".*",
       "if-domain": [
         "odemonstrat.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "odeoqmrr.com"
       ]
     },
     "action": {
@@ -693839,6 +697304,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "odyvcahzbdmlx.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "odzbuntuko.in"
       ]
     },
@@ -693928,6 +697404,17 @@
       "url-filter": ".*",
       "if-domain": [
         "oebdkgudbwlvd.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "oebhaxocru.com"
       ]
     },
     "action": {
@@ -694115,6 +697602,17 @@
       "url-filter": ".*",
       "if-domain": [
         "oejlgtggxswx.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "oejpvjjsgibdz.online"
       ]
     },
     "action": {
@@ -695347,6 +698845,17 @@
       "url-filter": ".*",
       "if-domain": [
         "official-score.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "official-wegame.com"
       ]
     },
     "action": {
@@ -696600,6 +700109,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ogjpymglbw.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ogjwbfgwwfbir.site"
       ]
     },
@@ -697337,6 +700857,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ohiassnail.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ohijyqtr.com"
       ]
     },
@@ -697909,6 +701440,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "oiclulifzkfna.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "oicmda.ugyismegveszel.hu"
       ]
     },
@@ -698063,6 +701605,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "oilcampfroze.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "oilcontainsdisaster.com"
       ]
     },
@@ -698207,6 +701760,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ointmentbarely.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ointsumpman.com"
       ]
     },
     "action": {
@@ -698647,6 +702211,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ojheaitunlker.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ojhopsaj.in"
       ]
     },
     "action": {
@@ -701397,6 +704972,17 @@
       "url-filter": ".*",
       "if-domain": [
         "omffnjybqlxdr.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "omfmfaxkion.in"
       ]
     },
     "action": {
@@ -710845,6 +714431,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "oqbxaknwo.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "oqezuyyzxggyx.site"
       ]
     },
@@ -719667,6 +723264,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ovoloencodecarity.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ovozxiftkxwtg.online"
       ]
     },
@@ -720833,6 +724441,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "owwbulasllttm.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "owwhfaffrpuvo.online"
       ]
     },
@@ -721559,6 +725178,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "oxterschamian.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "oxtracking.com"
       ]
     },
@@ -722176,6 +725806,17 @@
       "url-filter": ".*",
       "if-domain": [
         "oyphrnmykfzml.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "oypsbshislmqf.com"
       ]
     },
     "action": {
@@ -723990,6 +727631,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "p4zpl6qq6bu1zrm8zmlqltf.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "p5eqkpzvrfnhbbnrr8.cfd"
       ]
     },
@@ -724046,6 +727698,17 @@
       "url-filter": ".*",
       "if-domain": [
         "p67-kuku4e.xyz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "p6bvuuqjqbnu13zjjyiktqj.rest"
       ]
     },
     "action": {
@@ -729292,6 +732955,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "parkydiurons.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "parlidevchar.qpon"
       ]
     },
@@ -731086,6 +734760,17 @@
       "url-filter": ".*",
       "if-domain": [
         "pasxfixs.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "patabsobdotr.in"
       ]
     },
     "action": {
@@ -733219,6 +736904,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "pbxphallus.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "pbyfqdlhzrrit.online"
       ]
     },
@@ -733330,6 +737026,17 @@
       "url-filter": ".*",
       "if-domain": [
         "pc-tc.s3-eu-west-1.amazonaws.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "pc-todesk.com.cn"
       ]
     },
     "action": {
@@ -734275,6 +737982,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "pdjdjhpwluh.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "pdkiqznelwvdj.site"
       ]
     },
@@ -735112,6 +738830,17 @@
       "url-filter": ".*",
       "if-domain": [
         "pearpermitted.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "pearpouch.com"
       ]
     },
     "action": {
@@ -737972,6 +741701,17 @@
       "url-filter": ".*",
       "if-domain": [
         "perkcanada.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "perksburian.com"
       ]
     },
     "action": {
@@ -747552,6 +751292,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "piyeaztpdsmaj.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "pizbidjinqaq.com"
       ]
     },
@@ -748146,7 +751897,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "pkacasjaz.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "pkahpynblcscu.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "pkawtiuuazsgp.space"
       ]
     },
     "action": {
@@ -752502,6 +756275,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "plinthsarbaciastator.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "plirkep.com"
       ]
     },
@@ -753910,6 +757694,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "plywoodgrubs.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "plywoodmergenewspaper.com"
       ]
     },
@@ -754032,6 +757827,17 @@
       "url-filter": ".*",
       "if-domain": [
         "pm8x4por3oekmw5h1kyl.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "pmaorlewugcup.online"
       ]
     },
     "action": {
@@ -756925,6 +760731,17 @@
       "url-filter": ".*",
       "if-domain": [
         "poll.pollinatepolls.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "pollenunmoved.com"
       ]
     },
     "action": {
@@ -762424,6 +766241,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "pqnatgcpyfyfl.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "pqnnvegqkyadt.space"
       ]
     },
@@ -763150,6 +766978,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "prandsquirmsmurrain.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "prangsmiled.qpon"
       ]
     },
@@ -763195,6 +767034,17 @@
       "url-filter": ".*",
       "if-domain": [
         "prasegillie.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "prasquinor.jp"
       ]
     },
     "action": {
@@ -765570,6 +769420,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "prewarmritards.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "prewarmrushier.cfd"
       ]
     },
@@ -766451,6 +770312,17 @@
       "url-filter": ".*",
       "if-domain": [
         "priortreasonpositive.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "prisingmatzo.shop"
       ]
     },
     "action": {
@@ -772709,6 +776581,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "psfubfmken.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "psgddusxwtmgj.online"
       ]
     },
@@ -775811,6 +779694,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ptxxpsxyrycbu.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ptyalinbrattie.com"
       ]
     },
@@ -778099,6 +781993,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "puniturullingchuhra.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "punjabihoaxers.cfd"
       ]
     },
@@ -780211,6 +784116,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "pustuleatomise.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "pusvthljtkkgts.net"
       ]
     },
@@ -780322,6 +784238,17 @@
       "url-filter": ".*",
       "if-domain": [
         "putssugared.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "putteecoorie.cfd"
       ]
     },
     "action": {
@@ -780454,6 +784381,17 @@
       "url-filter": ".*",
       "if-domain": [
         "puzzle.spiriteq.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "puzzled-pay.pro"
       ]
     },
     "action": {
@@ -783402,6 +787340,17 @@
       "url-filter": ".*",
       "if-domain": [
         "q-counter.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "q-sogou.com.cn"
       ]
     },
     "action": {
@@ -788483,7 +792432,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qishui-zn.hl.cn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qishui.team"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qishuide.com.cn"
       ]
     },
     "action": {
@@ -789099,6 +793070,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qjuyaxbrnhxgm.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qjxhxu.lakeside.com"
       ]
     },
@@ -789495,6 +793477,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qkxfqleua.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qkxwhdgnpczur.space"
       ]
     },
@@ -789859,6 +793852,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qlmbkfutbgiux.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qlmckclcoxfpf.site"
       ]
     },
     "action": {
@@ -790947,6 +794951,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qnsrfhcjsycsy.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qnsxtvhfnajnw.global"
       ]
     },
@@ -791377,6 +795392,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qonxczumyxnmw.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qoptcekpwa.com"
       ]
     },
     "action": {
@@ -792047,6 +796073,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qqcvdfytarpbw.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qqdbyguxsdlvq.site"
       ]
     },
@@ -792279,6 +796316,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qqkyhkfakl.xyz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qqlbvxkyyvpec.com"
       ]
     },
     "action": {
@@ -793345,6 +797393,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qsepgujcjrr.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qservz.com"
       ]
     },
@@ -793368,6 +797427,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qsicrqoimhnzn.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qsjjoaaoeexvm.space"
       ]
     },
     "action": {
@@ -793456,6 +797526,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qsmwycdrdh.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qsndoepsdzfhs.online"
       ]
     },
     "action": {
@@ -793752,6 +797833,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qtcqxssh.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qtdkfh.beautywelt.de"
       ]
     },
@@ -794006,6 +798098,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qtrkqylpsmkat.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qtroibxoalnmq.site"
       ]
     },
     "action": {
@@ -795655,6 +799758,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "quguiqugna.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qugwavmsjvlnf.website"
       ]
     },
@@ -796667,6 +800781,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qunskbadgzcdx.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "quodvmljwdqec.site"
       ]
     },
@@ -796800,6 +800925,17 @@
       "url-filter": ".*",
       "if-domain": [
         "quppbriocuzkx.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "quqakrfbhvpwk.space"
       ]
     },
     "action": {
@@ -797349,6 +801485,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "qvmeiliozljro.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "qvmgixbgzyyyq.website"
       ]
     },
@@ -797603,6 +801750,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qvvurjgilhgbd.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qvwcrygyfqeih.site"
       ]
     },
     "action": {
@@ -798054,6 +802212,17 @@
       "url-filter": ".*",
       "if-domain": [
         "qwvqbeqorrobv.top"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "qwwfiqkwwmvah.com"
       ]
     },
     "action": {
@@ -805544,6 +809713,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rcjzipeazsuly.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rckvklcpibmdz.online"
       ]
     },
@@ -807854,6 +812034,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "reaqkzrca.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rearealrea.com"
       ]
     },
@@ -808591,6 +812782,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "recastsfracted.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "reccbgesxobut.website"
       ]
     },
@@ -808944,6 +813146,17 @@
       "url-filter": ".*",
       "if-domain": [
         "recipientpopulationregret.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "reciprocalextending.com"
       ]
     },
     "action": {
@@ -811232,6 +815445,17 @@
       "url-filter": ".*",
       "if-domain": [
         "reenakun.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "reenterbikini.cyou"
       ]
     },
     "action": {
@@ -821736,6 +825960,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rewakemislen.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rewakesshipper.qpon"
       ]
     },
@@ -823848,6 +828083,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rho3ihhlouug529z8eneu.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rhobqhafjhhwl.store"
       ]
     },
@@ -825652,6 +829898,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "riminganousrattons.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rimoudrauft.net"
       ]
     },
@@ -825883,6 +830140,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rinmasrfyq.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rinqgwqhyxozh.website"
       ]
     },
@@ -825972,6 +830240,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ripe-heart.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ripegoal.pro"
       ]
     },
     "action": {
@@ -826081,6 +830360,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rippedganevs.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rippierdrossy.cyou"
       ]
     },
@@ -826180,6 +830470,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rirrydpcnfxvj.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rirteelraibsou.net"
       ]
     },
@@ -826214,6 +830515,17 @@
       "url-filter": ".*",
       "if-domain": [
         "risemiddleagedmart.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "risertaigleliangle.qpon"
       ]
     },
     "action": {
@@ -826434,6 +830746,17 @@
       "url-filter": ".*",
       "if-domain": [
         "rittersjatki.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ritualsbassia.cfd"
       ]
     },
     "action": {
@@ -827456,6 +831779,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rknwvagviu.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rkocuezkhfizy.site"
       ]
     },
@@ -827622,6 +831956,17 @@
       "url-filter": ".*",
       "if-domain": [
         "rkxmow.novasol-vacaciones.es"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "rkzftxlcnprgd.online"
       ]
     },
     "action": {
@@ -827842,6 +832187,17 @@
       "url-filter": ".*",
       "if-domain": [
         "rliclcdbwdmsg.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "rlijekthflfes.website"
       ]
     },
     "action": {
@@ -831042,6 +835398,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "roll-tooth.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rollafkhgfene.space"
       ]
     },
@@ -831406,6 +835773,17 @@
       "url-filter": ".*",
       "if-domain": [
         "romemedieval.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "romerobowledbankera.cfd"
       ]
     },
     "action": {
@@ -832208,6 +836586,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rosacesquaresloggat.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rosalio.it"
       ]
     },
@@ -832285,6 +836674,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rosedsrdqvjcd.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "roseincome.com"
       ]
     },
@@ -832297,6 +836697,17 @@
       "url-filter": ".*",
       "if-domain": [
         "roseletunnose.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "roserypopolis.cyou"
       ]
     },
     "action": {
@@ -836850,6 +841261,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rtichevre.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rticuhrahv.in"
       ]
     },
@@ -837609,6 +842031,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rubbinggeic.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rubbingsticksforthwith.com"
       ]
     },
@@ -837874,6 +842307,17 @@
       "url-filter": ".*",
       "if-domain": [
         "rudechangingmetropolitan.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "rudelypalmitochuckle.qpon"
       ]
     },
     "action": {
@@ -838820,6 +843264,17 @@
       "url-filter": ".*",
       "if-domain": [
         "rummagydj.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "rummescanelle.qpon"
       ]
     },
     "action": {
@@ -840909,6 +845364,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rwqgiurep.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "rwqovmoezrvrv.top"
       ]
     },
@@ -841064,6 +845530,17 @@
       "url-filter": ".*",
       "if-domain": [
         "rwzvqzvqkzowy.top"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "rwzweheqfaqct.space"
       ]
     },
     "action": {
@@ -842075,6 +846552,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "rywxjwoialii.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ryyfqjjvctknm.site"
       ]
     },
@@ -842285,6 +846773,17 @@
       "url-filter": ".*",
       "if-domain": [
         "rzkmxuzgawgfc.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "rzlrufrrgqzgo.space"
       ]
     },
     "action": {
@@ -850292,6 +854791,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "samarasyisneezed.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "samarketing.sedgwick.com"
       ]
     },
@@ -852976,6 +857486,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "sangarsooty.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "sangerschews.qpon"
       ]
     },
@@ -853692,6 +858213,17 @@
       "url-filter": ".*",
       "if-domain": [
         "sape.ru"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "sapekcabobs.cfd"
       ]
     },
     "action": {
@@ -855979,6 +860511,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "sbjelpem.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "sbkgxdiiaxtgx.space"
       ]
     },
@@ -856233,6 +860776,17 @@
       "url-filter": ".*",
       "if-domain": [
         "sbxlwnacdqvxksc.xyz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "sbxoukhwafjlx.site"
       ]
     },
     "action": {
@@ -857201,6 +861755,17 @@
       "url-filter": ".*",
       "if-domain": [
         "scancemontes.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "scanceouds.shop"
       ]
     },
     "action": {
@@ -859555,6 +864120,17 @@
       "url-filter": ".*",
       "if-domain": [
         "scornfulleg.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "scornfulsalary.pro"
       ]
     },
     "action": {
@@ -871863,6 +876439,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "senaitebezel.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "sencionstoats.cfd"
       ]
     },
@@ -874492,6 +879079,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "serranodamask.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "sersabion.com"
       ]
     },
@@ -876098,6 +880696,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "sewedhacker.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "sewensiddurs.qpon"
       ]
     },
@@ -877583,6 +882192,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "sggumsnmiuuar.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "sghbvhktcomrn.online"
       ]
     },
@@ -877925,6 +882545,17 @@
       "url-filter": ".*",
       "if-domain": [
         "shackogalyak.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "shacksjahvism.com"
       ]
     },
     "action": {
@@ -881653,6 +886284,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "shirkedmicrobe.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "shirrelcosins.cfd"
       ]
     },
@@ -882885,6 +887527,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "shorterwanderer.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "shorthandbakerymeal.com"
       ]
     },
@@ -883996,6 +888649,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "shurufa-sogou.org.cn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "shussausach.com"
       ]
     },
@@ -885042,6 +889706,17 @@
       "url-filter": ".*",
       "if-domain": [
         "siglumegotism.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "siglumroxanne.com"
       ]
     },
     "action": {
@@ -888583,6 +893258,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "sivaistlocatum.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "siwashfetcher.top"
       ]
     },
@@ -890090,6 +894776,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "skihrigug.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "skijoreafront.help"
       ]
     },
@@ -890827,6 +895524,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "skycapsmissishribhus.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "skycheats.com"
       ]
     },
@@ -891224,6 +895932,17 @@
       "url-filter": ".*",
       "if-domain": [
         "slaepestled.help"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "slaggerpiete.qpon"
       ]
     },
     "action": {
@@ -891642,6 +896361,17 @@
       "url-filter": ".*",
       "if-domain": [
         "slbjksfomekcn.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "slbkwgxdzqlmn.website"
       ]
     },
     "action": {
@@ -892609,6 +897339,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "slipperydesire.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "slipperymirror.pro"
       ]
     },
@@ -892654,6 +897395,17 @@
       "url-filter": ".*",
       "if-domain": [
         "slitterarustleakala.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "slivesapsago.cfd"
       ]
     },
     "action": {
@@ -893908,6 +898660,17 @@
       "url-filter": ".*",
       "if-domain": [
         "smallseotools.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "smalmausones.com"
       ]
     },
     "action": {
@@ -929833,6 +934596,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "snaeyjnavvojo.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "snafuufos.com"
       ]
     },
@@ -933101,6 +937875,28 @@
       "url-filter": ".*",
       "if-domain": [
         "soggyzoo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "sogou-sogou.cn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "sogou2.com.cn"
       ]
     },
     "action": {
@@ -939096,6 +943892,17 @@
       "url-filter": ".*",
       "if-domain": [
         "sougharils.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "sougoupy.com.cn"
       ]
     },
     "action": {
@@ -945926,6 +950733,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "sqlpstudbu.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "sqmazf.workamajig.com"
       ]
     },
@@ -947753,6 +952571,17 @@
       "url-filter": ".*",
       "if-domain": [
         "srhwazpvlyxua.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "sridharkindlesbeaux.qpon"
       ]
     },
     "action": {
@@ -955870,6 +960699,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "stained-lay.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "staineddish.pro"
       ]
     },
@@ -957466,6 +962306,17 @@
       "url-filter": ".*",
       "if-domain": [
         "starvedesolatesaturday.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "starwfondlytannoid.qpon"
       ]
     },
     "action": {
@@ -972689,6 +977540,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "stlgleakervisibly.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "stliom.vidaxl.cz"
       ]
     },
@@ -972910,6 +977772,17 @@
       "url-filter": ".*",
       "if-domain": [
         "stobpennine.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "stocahfrakenmagnet.cyou"
       ]
     },
     "action": {
@@ -976452,6 +981325,17 @@
       "url-filter": ".*",
       "if-domain": [
         "stuckashespassion.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "stuckenfoam.com"
       ]
     },
     "action": {
@@ -983997,6 +988881,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "svxdlllvtirib.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "svxsadbrobogk.website"
       ]
     },
@@ -985603,6 +990498,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "swdjsnhtwoqp.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "swdqortugmmrj.online"
       ]
     },
@@ -985890,6 +990796,17 @@
       "url-filter": ".*",
       "if-domain": [
         "swededouble.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "swedephotocopy.com"
       ]
     },
     "action": {
@@ -986957,6 +991874,17 @@
       "url-filter": ".*",
       "if-domain": [
         "swomanifefashionis.org"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "swonswksodcbc.website"
       ]
     },
     "action": {
@@ -989288,6 +994216,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "synedawtit.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "synergy-e.com"
       ]
     },
@@ -990169,6 +995108,17 @@
       "url-filter": ".*",
       "if-domain": [
         "szphvbbhdmvle.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "szpyqrgh.xyz"
       ]
     },
     "action": {
@@ -1004017,7 +1008967,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tbezwqeyyioqa.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tbfqspkqykdcljg.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tbgehesqivycnf.com"
       ]
     },
     "action": {
@@ -1004556,6 +1009528,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tce4pi823ckpu6ooulw.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tcf58umppnphjz.cfd"
       ]
     },
@@ -1004931,6 +1009914,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tctbgheohtgfnm.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tctepwisejwvc.site"
       ]
     },
     "action": {
@@ -1006316,7 +1011310,29 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "team-wegame.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "team.moxtra.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "teambidcocktogate.cyou"
       ]
     },
     "action": {
@@ -1006647,6 +1011663,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tech-softwares.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tech-sogou.com"
       ]
     },
     "action": {
@@ -1012619,6 +1017646,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tfrmqgbkchtev.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tfsnczzpek.com"
       ]
     },
@@ -1012752,6 +1017790,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tg7cgq3hq332cm.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tgarjfjnxmqdm.space"
       ]
     },
     "action": {
@@ -1012972,6 +1018021,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tgmklw.productreview.com.au"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tgnswcqkfctbb.site"
       ]
     },
     "action": {
@@ -1017492,6 +1022552,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "thwmpryjuyqwb.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "thxkxqxdmxlwqdc.com"
       ]
     },
@@ -1019285,6 +1024356,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tineidmelascuarto.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tineidsreseeds.com"
       ]
     },
@@ -1020605,6 +1025687,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tiwvdreabxtath.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tixj61yrbwqwijxcn.cfd"
       ]
     },
@@ -1021035,6 +1026128,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tjwpfr.unitrailer.de"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tjwpnilpjtxiz.site"
       ]
     },
     "action": {
@@ -1024290,6 +1029394,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tmeklaoastqv.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tmekzzpsewdyo.website"
       ]
     },
@@ -1024511,6 +1029626,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tmlt.actonservice.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tmluyaszhetwu.online"
       ]
     },
     "action": {
@@ -1024829,6 +1029955,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tmtsumfxcvfvi.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tmtvplgmkycaa.space"
       ]
     },
@@ -1025028,6 +1030165,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tnbmdavwrgygn.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tncarking.qpon"
       ]
     },
     "action": {
@@ -1026226,6 +1031374,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "todesk-zh.cn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "todesk-zh.hl.cn"
       ]
     },
@@ -1026348,6 +1031507,17 @@
       "url-filter": ".*",
       "if-domain": [
         "toenailannouncehardworking.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "toenailfairnessvictorious.com"
       ]
     },
     "action": {
@@ -1027976,6 +1033146,17 @@
       "url-filter": ".*",
       "if-domain": [
         "top-staging.mail.ru"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "top-wegame.com"
       ]
     },
     "action": {
@@ -1059336,6 +1064517,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "trainswardy.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "traitmundifywagging.qpon"
       ]
     },
@@ -1061976,6 +1067168,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "trgqndztvxudg.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "trhefhiqsxizm.website"
       ]
     },
@@ -1063066,6 +1068269,17 @@
       "url-filter": ".*",
       "if-domain": [
         "trjhwbfhqpcwj.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "trjjolkmaxwyb.space"
       ]
     },
     "action": {
@@ -1072063,6 +1077277,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tumbakhongs.cyou"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tumbektowsy.qpon"
       ]
     },
@@ -1072613,6 +1077838,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tupmenlairing.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tur-tur-key.com"
       ]
     },
@@ -1072823,6 +1078059,17 @@
       "url-filter": ".*",
       "if-domain": [
         "turfingserb.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "turfitecansful.com"
       ]
     },
     "action": {
@@ -1074187,6 +1079434,17 @@
       "url-filter": ".*",
       "if-domain": [
         "twcqptldcqoza.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "twcwzjckuuubq.website"
       ]
     },
     "action": {
@@ -1075638,6 +1080896,28 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "txhqzzvyvegeg.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "txjgnbljkekft.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "txjjuoxttdlhl.store"
       ]
     },
@@ -1076167,6 +1081447,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tyglbnvkmaxih.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tyhujptmlcfqn.website"
       ]
     },
     "action": {
@@ -1076771,6 +1082062,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tyvpjemivabio.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tyvuwf.lameteoagricole.net"
       ]
     },
@@ -1077222,6 +1082524,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "tzqgwxfgruelq.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "tzr7llm7w7z5z95b.rest"
       ]
     },
@@ -1077289,6 +1082602,17 @@
       "url-filter": ".*",
       "if-domain": [
         "tzxbgwdsbtjzu.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "tzxsjhyzxjwle.com"
       ]
     },
     "action": {
@@ -1078444,6 +1083768,17 @@
       "url-filter": ".*",
       "if-domain": [
         "uatshare.entertainment.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "uauhosrlqmbkx.space"
       ]
     },
     "action": {
@@ -1080225,6 +1085560,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "udrejwmpascgis.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "udrnks.vedder-vedder.com"
       ]
     },
@@ -1080281,6 +1085627,17 @@
       "url-filter": ".*",
       "if-domain": [
         "udtsoymbpinrw.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "udttmnper.com"
       ]
     },
     "action": {
@@ -1082139,6 +1087496,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "uhciwutgmauzd.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "uhd5nn09mgml.fort-shop.kiev.ua"
       ]
     },
@@ -1082832,6 +1088200,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "uifncgofildko.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "uifqegurseeih.site"
       ]
     },
@@ -1083393,6 +1088772,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "uj4z4lu78k8z4thex.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ujbhri.pharmamarket.nl"
       ]
     },
@@ -1083438,6 +1088828,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ujdvvfrqujgfl.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ujen6k652o7ph3ufrz7eux43rl.cfd"
       ]
     },
     "action": {
@@ -1084779,6 +1090180,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ulhwerbvmskri.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ulhyys.naehwelt.de"
       ]
     },
@@ -1084879,6 +1090291,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ulkfvwizkfbml.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ulkpioanzeyth.website"
       ]
     },
     "action": {
@@ -1090598,6 +1096021,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "unpacksmarted.shop"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "unparchexpire.cyou"
       ]
     },
@@ -1091732,6 +1097166,17 @@
       "url-filter": ".*",
       "if-domain": [
         "unstantleran.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "unstatetway.cyou"
       ]
     },
     "action": {
@@ -1093272,6 +1098717,17 @@
       "url-filter": ".*",
       "if-domain": [
         "uoszcgshjmzqb.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "uoturtnuibjitgj.com"
       ]
     },
     "action": {
@@ -1094866,6 +1100322,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "upspearcutline.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "upspearstowp.qpon"
       ]
     },
@@ -1095846,6 +1101313,17 @@
       "url-filter": ".*",
       "if-domain": [
         "uqsdkjjjrqqxa.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "uqtslulxiarcu.website"
       ]
     },
     "action": {
@@ -1099212,6 +1104690,17 @@
       "url-filter": ".*",
       "if-domain": [
         "uszwemdrlwqxw.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "uszxsqvpukbwz.website"
       ]
     },
     "action": {
@@ -1104931,6 +1110420,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "uviekpvrstlwu.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "uvkqyxjdiswkt.site"
       ]
     },
@@ -1106537,6 +1112037,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "uzbekchatibaba.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "uzbiajlzdylja.icu"
       ]
     },
@@ -1106615,6 +1112126,17 @@
       "url-filter": ".*",
       "if-domain": [
         "uzeempoothult.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "uzepcmmnhfznf.online"
       ]
     },
     "action": {
@@ -1110211,6 +1115733,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vazwigqpegmi.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vazypteke.pro"
       ]
     },
@@ -1113148,6 +1118681,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "venwkbkyh.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "venypyrenic.com"
       ]
     },
@@ -1114743,6 +1120287,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vfelxgfxodljv.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vfertqhkmxvra.website"
       ]
     },
@@ -1115184,6 +1120739,17 @@
       "url-filter": ".*",
       "if-domain": [
         "vfrykczqqimeu.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "vfsjkejgsjhhp.website"
       ]
     },
     "action": {
@@ -1118373,6 +1123939,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vigswobchob.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "viguuhkxiyqpl.website"
       ]
     },
@@ -1119056,6 +1124633,17 @@
       "url-filter": ".*",
       "if-domain": [
         "vinegardaring.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "vinermusingsinjust.cyou"
       ]
     },
     "action": {
@@ -1119804,6 +1125392,17 @@
       "url-filter": ".*",
       "if-domain": [
         "virbiusembus.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "virelairushiercurf.cfd"
       ]
     },
     "action": {
@@ -1121893,6 +1127492,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vjhdqmupqsugi.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vjhfsebbyxwru.website"
       ]
     },
@@ -1123807,6 +1129417,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vmulkkomywekhcp.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vmurpruqkhtoh.site"
       ]
     },
@@ -1124632,6 +1130253,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "voetfencedwedgies.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "voeux2020.wearemip.com"
       ]
     },
@@ -1124688,6 +1130320,17 @@
       "url-filter": ".*",
       "if-domain": [
         "vogueoval.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "voguesebkhabrucina.cyou"
       ]
     },
     "action": {
@@ -1126491,6 +1132134,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vpptotruslsot.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vpqppkcoszupa.site"
       ]
     },
@@ -1126668,6 +1132322,17 @@
       "url-filter": ".*",
       "if-domain": [
         "vpxzunvaldxcp.world"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "vpyahznkwoqjm.space"
       ]
     },
     "action": {
@@ -1127460,6 +1133125,17 @@
       "url-filter": ".*",
       "if-domain": [
         "vrqdzfzzlyalb.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "vrqrmsjnmmitxuk.com"
       ]
     },
     "action": {
@@ -1128999,6 +1134675,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vultenok.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vultursidlins.cyou"
       ]
     },
@@ -1129473,6 +1135160,17 @@
       "url-filter": ".*",
       "if-domain": [
         "vvkholowfoeku.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "vvklvhpx.com"
       ]
     },
     "action": {
@@ -1130836,6 +1136534,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vyekpcuojaujx.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vyeysj.foto-mundus.de"
       ]
     },
@@ -1131650,6 +1137359,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "vzrdblpkzajmpc.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "vzsiurbszindx.online"
       ]
     },
@@ -1132003,6 +1137723,17 @@
       "url-filter": ".*",
       "if-domain": [
         "w3counter.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "w3fc1o28kpltrl.rest"
       ]
     },
     "action": {
@@ -1133048,6 +1138779,17 @@
       "url-filter": ".*",
       "if-domain": [
         "wafdsurfuseenclog.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "wafdughretinic.cyou"
       ]
     },
     "action": {
@@ -1135105,6 +1140847,17 @@
       "url-filter": ".*",
       "if-domain": [
         "warpedbrother.pro"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "warpgam.shop"
       ]
     },
     "action": {
@@ -1144399,6 +1150152,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "wegameesport.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "wegetpaid.net"
       ]
     },
@@ -1148679,6 +1154443,17 @@
       "url-filter": ".*",
       "if-domain": [
         "whinemalnutrition.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "whinersisotopy.shop"
       ]
     },
     "action": {
@@ -1153034,6 +1158809,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "wispsorante.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "wispycity.com"
       ]
     },
@@ -1153386,6 +1159172,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "withthewindndc.org"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "withyou.shorr.com"
       ]
     },
@@ -1153684,6 +1159481,17 @@
       "url-filter": ".*",
       "if-domain": [
         "wizardunstablecommissioner.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "wizierturmoil.cfd"
       ]
     },
     "action": {
@@ -1155575,6 +1161383,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "wmhrjwajhzlsu.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "wmippfhmmw.com"
       ]
     },
@@ -1156346,6 +1162165,17 @@
       "url-filter": ".*",
       "if-domain": [
         "wnp.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "wnquetpwdloqw.website"
       ]
     },
     "action": {
@@ -1160415,6 +1166245,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "wqhtcbynjxxfh.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "wqicmioasixaa.online"
       ]
     },
@@ -1161262,6 +1167103,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "wriedhagfish.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "wrigglefinviewed.com"
       ]
     },
@@ -1161659,6 +1167511,17 @@
       "url-filter": ".*",
       "if-domain": [
         "wrsmnqmpopund.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "wrsndaaf.com"
       ]
     },
     "action": {
@@ -1162099,6 +1167962,17 @@
       "url-filter": ".*",
       "if-domain": [
         "wsfsjrtpjryel.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "wsgefymufhnxb.website"
       ]
     },
     "action": {
@@ -1163671,6 +1169545,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "wuhdpdaxzzwka.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "wui5ihfvyqe3vj.cfd"
       ]
     },
@@ -1163870,6 +1169755,17 @@
       "url-filter": ".*",
       "if-domain": [
         "wuqwruavhah.in"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "wurldcergpkri.site"
       ]
     },
     "action": {
@@ -1164464,6 +1170360,17 @@
       "url-filter": ".*",
       "if-domain": [
         "wvzddr.quirumed.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ww-sogou.cn"
       ]
     },
     "action": {
@@ -1165189,6 +1171096,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "www-cn-google.org.cn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "www-ebis.384.co.jp"
       ]
     },
@@ -1165256,6 +1171174,17 @@
       "url-filter": ".*",
       "if-domain": [
         "www-path.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "www-qishiu.com.cn"
       ]
     },
     "action": {
@@ -1173670,6 +1179599,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "wyebbkxinxgud.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "wyelmp.vidaxl.si"
       ]
     },
@@ -1176024,6 +1181964,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "xbsnsisymkjxc.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "xbuggishbecom.org"
       ]
     },
@@ -1177146,6 +1183097,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "xdtepvflldyqy.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "xdtraffic.com"
       ]
     },
@@ -1177180,6 +1183142,17 @@
       "url-filter": ".*",
       "if-domain": [
         "xdyxzdkconsev.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "xeadwxmskneio.space"
       ]
     },
     "action": {
@@ -1178147,6 +1184120,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "xfynpqmwlfyxx.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "xfyw7nl1x59f49.cfd"
       ]
     },
@@ -1178280,6 +1184264,17 @@
       "url-filter": ".*",
       "if-domain": [
         "xgezbc.tripmasters.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "xgfgfumw.com"
       ]
     },
     "action": {
@@ -1180424,6 +1186419,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "xktjxdhtgebsr.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "xkudvpefmaeua.online"
       ]
     },
@@ -1182338,6 +1188344,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "xobtnfeygzuuei.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "xocivltwemkxn.site"
       ]
     },
@@ -1183284,6 +1189301,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "xpxantthjowrd.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "xpxhflmlgqujl.website"
       ]
     },
@@ -1184000,6 +1190028,17 @@
       "url-filter": ".*",
       "if-domain": [
         "xrf56h2ofw7euebkjwxmpj82tnc9.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "xrhoglwanuxlv.online"
       ]
     },
     "action": {
@@ -1185221,6 +1191260,17 @@
       "url-filter": ".*",
       "if-domain": [
         "xtitjpiaoedam.space"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "xtmhzidqppsit.online"
       ]
     },
     "action": {
@@ -1188124,6 +1194174,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "xzgcezixdaqjf.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "xzgnojrlwoklp.website"
       ]
     },
@@ -1188960,6 +1195021,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "yahwistdanian.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "yajeindieselvamosed.cyou"
       ]
     },
@@ -1189554,6 +1195626,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "yatterwallie.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "yatukdakwfhhp.online"
       ]
     },
@@ -1190006,6 +1196089,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ybgsyd.osharewalker.co.jp"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ybhfyonreneff.space"
       ]
     },
     "action": {
@@ -1190841,6 +1196935,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "ycvobjkptowgu.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ycwaqlnpzlvkw.store"
       ]
     },
@@ -1190952,6 +1197057,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ydbeuq.superpharm.pl"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ydbvswwcyj.com"
       ]
     },
     "action": {
@@ -1192315,6 +1198431,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "yezcqtumbsklw.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "yezztf.pinkelephant.co.kr"
       ]
     },
@@ -1192964,6 +1199091,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "yg5sjx5kzy.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "ygacesefzgcvt.site"
       ]
     },
@@ -1193526,6 +1199664,17 @@
       "url-filter": ".*",
       "if-domain": [
         "yhettexs.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "yhfbqmadtvrbi.online"
       ]
     },
     "action": {
@@ -1194911,6 +1201060,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "yjrhhbqxj65yy1r.rest"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "yjrohhkqfddlx.store"
       ]
     },
@@ -1195220,6 +1201380,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ykiyhzbgnqkys.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ykkdpgqpukmlzs.com"
       ]
     },
     "action": {
@@ -1196144,6 +1202315,17 @@
       "url-filter": ".*",
       "if-domain": [
         "ymcvxo.check24.de"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "ymcyedebhrdxy.online"
       ]
     },
     "action": {
@@ -1201533,6 +1207715,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "yuinrlqwhmubn.site"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "yuintbradshed.com"
       ]
     },
@@ -1202238,6 +1208431,17 @@
       "url-filter": ".*",
       "if-domain": [
         "yvfqjmbwitctn.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "yvgiqknqcaufu.com"
       ]
     },
     "action": {
@@ -1204833,6 +1211037,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "z4q4lg98hgwcg6g87nncp38g6ff891ee.cfd"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "z4t2eqqibvcey366.cfd"
       ]
     },
@@ -1205262,6 +1211477,28 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "zaggedsamuin.qpon"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "zagkozkvrqojx.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "zaglushkaaa.com"
       ]
     },
@@ -1205603,6 +1211840,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "zalenith.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "zalfvzkgmctmu.space"
       ]
     },
@@ -1205879,6 +1212127,17 @@
       "url-filter": ".*",
       "if-domain": [
         "zardoossuy.net"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "zarfsdevotee.cyou"
       ]
     },
     "action": {
@@ -1212049,6 +1218308,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "zlahlzealfauo.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "zlaosdshglcjt.space"
       ]
     },
@@ -1212886,6 +1219156,17 @@
       "url-filter": ".*",
       "if-domain": [
         "zmgcytqqalkgu.online"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "zmgwgfaesqwgn.space"
       ]
     },
     "action": {
@@ -1215163,6 +1221444,17 @@
       "url-filter": ".*",
       "if-domain": [
         "zpzcahumfmsyi.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "zq4pngk51onmbp89i1f9.cfd"
       ]
     },
     "action": {
@@ -1217813,6 +1224105,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "zvvkjoyc.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "zvvpcz.puravita.ch"
       ]
     },
@@ -1218858,6 +1225161,17 @@
     "trigger": {
       "url-filter": ".*",
       "if-domain": [
+        "zyhmiwtgi.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
         "zyhxqpbvlakfx.online"
       ]
     },
@@ -1219112,6 +1225426,17 @@
       "url-filter": ".*",
       "if-domain": [
         "zyusywfejzbya.fun"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "zyvbcstcltidm.online"
       ]
     },
     "action": {
@@ -1219409,6 +1225734,17 @@
       "url-filter": ".*",
       "if-domain": [
         "zzwbjmkgxwsqs.website"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "zzwhyoheusgza.site"
       ]
     },
     "action": {
